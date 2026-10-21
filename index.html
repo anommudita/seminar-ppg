@@ -133,20 +133,45 @@
              SEMESTER 2 (placeholder — akan diisi menyusul)
              ============================================================ -->
         <section class="semester semester--muted" id="semester2">
+            <!-- Pencarian mata kuliah Semester 2 -->
             <div class="container">
                 <div class="section-heading" data-reveal>
                     <span class="section-heading__eyebrow">Semester 2</span>
                     <h2 class="section-heading__title">Refleksi Mata Kuliah Semester 2</h2>
+                    <p class="section-heading__desc">
+                        Semester 2 merupakan tahap lebih lanjut dalam proses pembelajaran yang memberikan berbagai pengalaman,
+                        pemahaman, dan refleksi mengenai pendidikan, peserta didik, pembelajaran, serta pengalaman
+                        praktik di lingkungan pendidikan.
+                    </p>
                 </div>
 
-                <!-- TEMPAT MENAMBAHKAN MATA KULIAH SEMESTER 2:
-                     tambahkan objek baru pada array `coursesSemester2` di script.js,
-                     dengan struktur yang sama seperti `courses` (Semester 1). -->
-                <div class="coming-soon" data-reveal>
-                    <div class="coming-soon__icon" aria-hidden="true">🎓</div>
-                    <h3 class="coming-soon__title">Materi mata kuliah Semester 2 akan segera ditambahkan.</h3>
-                    <p class="coming-soon__desc">Bagian ini akan terisi otomatis menggunakan sistem data yang sama seperti Semester 1 begitu materinya tersedia.</p>
+                <!-- Pencarian mata kuliah Semester 2 -->
+                <div class="course-filter" data-reveal>
+                    <div class="course-filter__search">
+                        <input
+                            type="search"
+                            id="courseSearchSemester2"
+                            placeholder="Cari mata kuliah Semester 2..."
+                            aria-label="Cari mata kuliah Semester 2"
+                        >
+                    </div>
                 </div>
+
+                <!-- Daftar kartu Semester 2 -->
+                <div
+                    class="course-grid"
+                    id="coursesSemester2"
+                    data-reveal>
+                </div>
+
+                <p
+                    class="course-grid__empty"
+                    id="courseGridEmptySemester2"
+                    hidden>
+                    Tidak ada mata kuliah yang cocok dengan pencarianmu.
+                </p>
+
+               
             </div>
         </section>
 
@@ -207,9 +232,9 @@
                 <!-- Tabs -->
                 <div class="course-tabs" role="tablist" aria-label="Bagian detail mata kuliah">
                     <button class="course-tabs__btn is-active" role="tab" aria-selected="true" data-tab="refleksi" id="tabBtnRefleksi">Refleksi</button>
-                    <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="materi" id="tabBtnMateri">Materi</button>
+                    <!-- <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="materi" id="tabBtnMateri">Materi</button> -->
                     <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="artefak" id="tabBtnArtefak">Artefak</button>
-                    <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="dokumen" id="tabBtnDokumen">Dokumen</button>
+                    <!-- <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="dokumen" id="tabBtnDokumen">Dokumen</button> -->
                 </div>
 
                 <!-- TAB PANEL: REFLEKSI -->

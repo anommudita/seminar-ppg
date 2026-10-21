@@ -37,48 +37,53 @@ const courses = [
         shortDesc: "Pemikiran Ki Hadjar Dewantara, growth mindset, pendidikan nilai, dan kode etik profesi guru.",
 
         reflection: {
-            connection: `Materi perkuliahan pada topik 1 sampai topik 4 memiliki keterkaitan yang sangat erat dengan peran saya sebagai calon guru. Pada topik pertama, saya memahami pemikiran Ki Hadjar Dewantara tentang hakikat pendidikan, yaitu bahwa pendidikan bertujuan untuk menuntun segala kodrat yang dimiliki peserta didik agar mencapai keselamatan dan kebahagiaan setinggi-tingginya. Guru tidak bertugas membentuk peserta didik sesuai keinginannya, melainkan membimbing dan mendampingi perkembangan mereka sesuai kodrat alam dan kodrat zamannya. Selain itu, semboyan "Ing Ngarso Sung Tulodo, Ing Madya Mangun Karso, dan Tut Wuri Handayani" menjadi pedoman bagi saya dalam menjalankan peran sebagai pendidik.
+            connection: `Materi perkuliahan pada topik 1 sampai topik 4 memiliki keterkaitan yang sangat erat dengan peran saya sebagai calon guru. Pada topik pertama, saya memahami pemikiran Ki Hadjar Dewantara tentang hakikat pendidikan, yaitu bahwa pendidikan bertujuan untuk menuntun segala kodrat yang dimiliki peserta didik agar mencapai keselamatan dan kebahagiaan setinggi-tingginya. Guru tidak bertugas membentuk peserta didik sesuai keinginannya, melainkan membimbing dan mendampingi perkembangan mereka sesuai kodrat alam dan kodrat zamannya. Selain itu, semboyan “Ing Ngarso Sung Tulodo, Ing Madya Mangun Karso, dan Tut Wuri Handayani” menjadi pedoman bagi saya dalam menjalankan peran sebagai pendidik.
+Arti dari semboyan Ki Hadjar Dewantara tersebut adalah sebagai berikut.
+•	Ing Ngarso Sung Tulodo berarti “di depan memberi teladan.” Sebagai guru, kita harus menjadi contoh yang baik bagi peserta didik, baik dalam sikap, perilaku, maupun ucapan. 
+•	Ing Madya Mangun Karso berarti “di tengah membangun semangat.” Guru berperan mendampingi peserta didik, memberikan motivasi, serta menciptakan suasana belajar yang mendorong mereka untuk berkembang. 
+•	Tut Wuri Handayani berarti “di belakang memberi dorongan.” Guru memberikan dukungan dan arahan agar peserta didik menjadi mandiri, percaya diri, dan mampu mengembangkan potensi yang dimilikinya
+Pada topik kedua, saya mempelajari tentang growth mindset atau pola pikir bertumbuh yang sejalan dengan pemikiran Ki Hadjar Dewantara. Sebagai calon guru, saya harus menyadari bahwa setiap peserta didik memiliki potensi dan kemampuan yang dapat terus berkembang melalui proses belajar, latihan, dan pengalaman. Guru tidak hanya bertugas menyampaikan materi, tetapi juga membimbing, memotivasi, dan memberikan dukungan kepada peserta didik agar mereka percaya pada kemampuan dirinya sendiri.
+Ki Hadjar Dewantara menjelaskan bahwa guru berperan sebagai pamong yang menuntun dan membantu peserta didik mengembangkan potensi yang dimilikinya. Oleh karena itu, sebagai calon guru saya harus mampu menciptakan lingkungan belajar yang mendorong peserta didik untuk berani mencoba, tidak takut melakukan kesalahan, serta menjadikan tantangan sebagai kesempatan untuk berkembang. Dengan menerapkan growth mindset, peserta didik diharapkan dapat menjadi pribadi yang mandiri, kritis, dan terus berusaha mencapai tujuan belajarnya.
+Pada topik ketiga, saya memahami bahwa pendidikan nilai sangat penting karena menjadi landasan dalam membentuk karakter peserta didik. Pendidikan nilai di Indonesia berpedoman pada Pancasila dan Undang-Undang Sistem Pendidikan Nasional yang menekankan pentingnya membentuk manusia yang beriman, berakhlak mulia, mandiri, serta bertanggung jawab. Di tengah berbagai fenomena sosial, seperti pergeseran nilai, pengaruh media sosial, bullying, dan menurunnya moral generasi muda, sekolah memiliki peran penting sebagai tempat pewarisan nilai dari satu generasi ke generasi berikutnya.
+Pada topik keempat, saya mempelajari pentingnya kode etik profesi guru. Setiap profesi memiliki aturan dan tanggung jawab yang harus dipatuhi, termasuk profesi guru. Pemahaman terhadap kode etik akan membantu saya bertindak secara profesional, menjaga hubungan dengan peserta didik dan masyarakat, serta menentukan langkah yang tepat ketika menghadapi berbagai permasalahan atau pelanggaran yang terjadi di lingkungan sekolah. Dengan memahami kode etik, saya dapat menjalankan tugas sebagai pendidik secara bertanggung jawab dan sesuai dengan norma yang berlaku.
+`,
 
-Arti dari semboyan tersebut: Ing Ngarso Sung Tulodo berarti "di depan memberi teladan"; Ing Madya Mangun Karso berarti "di tengah membangun semangat"; Tut Wuri Handayani berarti "di belakang memberi dorongan".
+            challenge: `Tantangan yang saya alami berdasarkan pengalaman praktik mengajar sebelumnya adalah anggapan bahwa tugas guru hanya sebatas menyampaikan ilmu dan pembelajaran berpusat pada guru. Namun, setelah mempelajari materi ini, saya memahami bahwa pendidikan tidak hanya berfokus pada penyampaian pengetahuan, melainkan guru berperan untuk menuntun dan membimbing peserta didik melalui sistem among yang tercermin dalam semboyan Ing Madya Mangun Karso dan Tut Wuri Handayani. Dengan demikian, pembelajaran yang dilaksanakan bertujuan untuk memerdekakan peserta didik agar dapat berkembang sesuai dengan potensi yang dimilikinya.`,
 
-Pada topik kedua, saya mempelajari growth mindset yang sejalan dengan pemikiran Ki Hadjar Dewantara — bahwa setiap peserta didik memiliki potensi yang dapat terus berkembang melalui proses belajar, latihan, dan pengalaman. Guru berperan sebagai pamong yang menuntun peserta didik mengembangkan potensinya.
+            concept: `Secara keseluruhan, terdapat beberapa konsep utama yang saya pahami sebagai calon guru dari materi yang telah dipelajari.
+1.	Pendidikan berpusat pada peserta didik. Pembelajaran harus dirancang dengan mengutamakan kebutuhan, karakteristik, potensi, dan keunikan setiap peserta didik. Guru berperan sebagai pamong yang menuntun dan membimbing peserta didik agar mampu mengembangkan potensi dirinya secara optimal, bukan sekadar menyampaikan materi pelajaran.
+2.	Kodrat alam dan kodrat zaman. Pendidikan harus diselenggarakan sesuai dengan kondisi lingkungan tempat peserta didik tumbuh dan berkembang, sekaligus mampu menjawab tantangan perubahan zaman, ilmu pengetahuan, dan teknologi. Oleh karena itu, guru dituntut untuk menciptakan pembelajaran yang relevan dengan kebutuhan peserta didik pada masa kini.
+3.	Cipta, rasa, karsa, dan karya. Pendidikan tidak hanya berfokus pada pengembangan kemampuan intelektual, tetapi juga membentuk karakter, kreativitas, kemauan, serta keterampilan peserta didik secara utuh dan seimbang. Hal ini sejalan dengan tujuan pendidikan nasional yang menekankan pembentukan manusia yang beriman, berakhlak mulia, mandiri, dan bertanggung jawab.
+4.	Memahami kode etik profesi guru. Sebagai calon guru, saya harus memahami kode etik profesi agar dapat bertindak secara profesional, menjunjung tinggi etika, serta mengutamakan kebutuhan dan kepentingan peserta didik di atas kepentingan pribadi. Selain itu, pemahaman terhadap kode etik membantu guru mengetahui batasan, tanggung jawab, dan tindakan yang tepat dalam menghadapi berbagai permasalahan di lingkungan pendidikan.
+`,
 
-Pada topik ketiga, saya memahami bahwa pendidikan nilai sangat penting sebagai landasan pembentukan karakter, berpedoman pada Pancasila dan UU Sistem Pendidikan Nasional, di tengah fenomena pergeseran nilai, pengaruh media sosial, dan bullying.
-
-Pada topik keempat, saya mempelajari pentingnya kode etik profesi guru sebagai pedoman bertindak profesional dan bertanggung jawab.`,
-
-            challenge: `Tantangan yang saya alami berdasarkan pengalaman praktik mengajar sebelumnya adalah anggapan bahwa tugas guru hanya sebatas menyampaikan ilmu dan pembelajaran berpusat pada guru. Namun, setelah mempelajari materi ini, saya memahami bahwa pendidikan tidak hanya berfokus pada penyampaian pengetahuan, melainkan guru berperan untuk menuntun dan membimbing peserta didik melalui sistem among yang tercermin dalam semboyan Ing Madya Mangun Karso dan Tut Wuri Handayani. Pembelajaran bertujuan untuk memerdekakan peserta didik agar dapat berkembang sesuai potensinya.`,
-
-            concept: `1. Pendidikan berpusat pada peserta didik — guru sebagai pamong yang menuntun dan membimbing.
-2. Kodrat alam dan kodrat zaman — pendidikan harus relevan dengan lingkungan dan perkembangan zaman.
-3. Cipta, rasa, karsa, dan karya — pendidikan membentuk intelektual, karakter, kreativitas, dan keterampilan secara utuh.
-4. Memahami kode etik profesi guru — bertindak profesional dan mengutamakan kepentingan peserta didik.`,
-
-            change: `1. Mengubah pola pikir bahwa guru bukan hanya penyampai materi, tetapi juga pembimbing dan penuntun.
-2. Merancang pembelajaran yang lebih berpusat pada peserta didik.
-3. Menerapkan prinsip Ing Ngarso Sung Tulodo, Ing Madya Mangun Karso, dan Tut Wuri Handayani.
-4. Menyesuaikan pembelajaran dengan kodrat alam dan kodrat zaman.
-5. Menumbuhkan growth mindset pada peserta didik.
-6. Menanamkan nilai moral, karakter, dan nilai-nilai Pancasila.
-7. Menciptakan suasana belajar yang memerdekakan dan mendorong berpikir kritis.
-8. Memahami dan menerapkan kode etik profesi guru.
-9. Terus belajar dan mengembangkan kompetensi sebagai calon guru profesional.`
+            change: `Berdasarkan materi perkuliahan yang telah dipelajari, berikut beberapa perubahan yang akan saya terapkan:
+1.Mengubah pola pikir bahwa guru bukan hanya sebagai penyampai materi, tetapi juga sebagai pembimbing dan penuntun peserta didik. 
+1	Merancang pembelajaran yang lebih berpusat pada peserta didik dengan memperhatikan kebutuhan, minat, dan potensi masing-masing. 
+2	Menerapkan prinsip Ki Hadjar Dewantara, yaitu Ing Ngarso Sung Tulodo, Ing Madya Mangun Karso, dan Tut Wuri Handayani dalam proses pembelajaran. 
+3	Menyesuaikan pembelajaran dengan kodrat alam dan kodrat zaman agar peserta didik mampu menghadapi perkembangan ilmu pengetahuan dan teknologi. 
+4	Menumbuhkan growth mindset pada peserta didik agar mereka berani mencoba, tidak mudah menyerah, dan terus berkembang. 
+5	Menanamkan nilai-nilai moral, karakter, dan nilai-nilai Pancasila dalam kehidupan sehari-hari, terutama di tengah perkembangan dunia digital. 
+6	Menciptakan suasana belajar yang memerdekakan, menyenangkan, serta mendorong peserta didik untuk berpikir kritis dan mandiri. 
+7	Memahami dan menerapkan kode etik profesi guru agar dapat bertindak secara profesional dan bertanggung jawab. 
+8	Terus belajar dan mengembangkan kompetensi sebagai calon guru yang profesional.
+`
         },
 
         artifacts: [
             {
                 name: "Tugas Topik 3A — Filosofi Pendidikan dan Pendidikan Nilai",
                 type: "link",
-                url: "",
-                description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya di data `artifacts` (properti `url`) pada script.js.",
+                url: "https://drive.google.com/file/d/1jxPV7W5r1v3NE3eJ5Sy0Qmis5z-4kkCt/view?usp=sharing",
+                // description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya di data `artifacts` (properti `url`) pada script.js.",
                 preview: false
             }
         ],
-        artifactWhy: `Artefak tersebut saya pilih karena topik pendidikan moral dan karakter sangat relevan dengan kondisi pendidikan saat ini. Pada topik 1 dan 2, saya telah mempelajari filosofi pendidikan Ki Hadjar Dewantara, seperti konsep kodrat alam, kodrat zaman, dan growth mindset, yang menekankan bahwa guru harus menuntun peserta didik agar berkembang sesuai dengan potensi dan zamannya. Namun, pada kenyataannya masih banyak permasalahan moral yang terjadi di lingkungan pendidikan, terutama di era modern dan digital.
-
-Perkembangan teknologi dan media sosial ibarat pisau bermata dua: memberi manfaat, tetapi juga membawa dampak negatif seperti menurunnya sopan santun, empati, tanggung jawab, serta kasus perundungan dan penyimpangan perilaku peserta didik.
-
-Selain itu, saya melihat adanya ketidakkonsistenan penanaman nilai moral antara sekolah, keluarga, dan masyarakat sehingga peserta didik mengalami kebingungan membedakan perilaku yang benar dan salah. Oleh karena itu, artefak ini memberikan gambaran nyata bahwa pendidikan tidak cukup hanya berfokus pada akademik, tetapi juga harus memperhatikan pendidikan moral dan karakter.`,
+        artifactWhy: `Artefak tersebut saya pilih karena topik pendidikan moral dan karakter sangat relevan dengan kondisi pendidikan saat ini. Pada topik 1 dan 2, saya telah mempelajari filosofi pendidikan Ki Hadjar Dewantara, seperti konsep kodrat alam, kodrat zaman, dan growth mindset, yang menekankan bahwa guru harus menuntun peserta didik agar berkembang sesuai dengan potensi dan zamannya. Namun, pada kenyataannya masih banyak permasalahan moral yang terjadi di lingkungan pendidikan, terutama di era modern dan digital yang berkembang sangat pesat.
+Perkembangan teknologi dan media sosial ibarat pisau bermata dua. Di satu sisi, teknologi memberikan banyak manfaat dan kemudahan dalam memperoleh informasi. Akan tetapi, di sisi lain, teknologi juga membawa dampak negatif, seperti menurunnya sikap sopan santun, empati, tanggung jawab, serta munculnya berbagai kasus perundungan, kekerasan, dan penyimpangan perilaku peserta didik. Hal ini terlihat dari berbagai berita yang membahas krisis moral, degradasi pendidikan karakter, serta perilaku peserta didik yang tidak sesuai dengan nilai-nilai yang diajarkan di sekolah.
+Selain itu, saya melihat adanya ketidakkonsistenan dalam penanaman nilai moral antara sekolah, keluarga, dan lingkungan masyarakat. Nilai-nilai yang diajarkan oleh ketiga lingkungan tersebut terkadang tidak selaras sehingga peserta didik mengalami kebingungan dalam membedakan perilaku yang benar dan yang salah. Padahal, peserta didik bukanlah “kertas kosong” yang hanya menerima informasi, melainkan individu yang memiliki potensi, pengalaman, dan kemampuan berpikir yang perlu dituntun serta dikembangkan secara kritis.
+Oleh karena itu, artefak ini saya pilih karena memberikan gambaran nyata bahwa pendidikan tidak cukup hanya berfokus pada aspek akademik, tetapi juga harus memperhatikan pendidikan moral dan karakter. Sebagai calon guru, saya menyadari bahwa tugas guru bukan hanya mengajarkan ilmu pengetahuan, melainkan juga membimbing, memberikan teladan, serta membantu peserta didik membangun karakter yang baik agar mampu menghadapi tantangan zaman dan perkembangan teknologi secara bijaksana.
+`,
         artifactSupport: [
             `Bagian yang membahas kasus "Krisis Moral Anak Indonesia", "Degradasi Moral Pendidikan dan Peserta Didik", dan "Indonesia Darurat Pendidikan Moral dan Karakter" — mendukung refleksi bahwa teknologi dan media sosial dapat berdampak negatif tanpa diimbangi pendidikan nilai.`,
             `Penjelasan mengenai moral dan karakter — moral sebagai pemahaman baik-buruk, karakter sebagai perwujudannya dalam kehidupan sehari-hari.`,
@@ -128,9 +133,9 @@ Pada topik keempat, saya mempelajari profiling peserta didik — mengumpulkan in
             {
                 name: "Tugas Topik 3D — Sintesis",
                 type: "link",
-                url: "",
-                description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
-                preview: false
+                url: "https://drive.google.com/file/d/1I2iu5mFp-OqdHG0QOx9JchCY0FYfjm7P/view?usp=sharing",
+                // description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
+                preview: true
             }
         ],
         artifactWhy: `Artefak tersebut saya pilih karena topik ini membahas kasus yang terjadi di kelas XI IPS 2 Bu Sinata, yaitu rendahnya kemandirian, partisipasi, dan kemampuan berpikir kritis peserta didik. Permasalahan tersebut sangat relevan dengan kondisi yang kemungkinan akan saya temui sebagai guru di kelas nantinya. Melalui kasus tersebut, saya belajar menganalisis akar permasalahan yang dialami peserta didik, mengaitkannya dengan berbagai teori pembelajaran yang telah dipelajari, serta menentukan alternatif strategi pembelajaran yang sesuai.`,
@@ -180,9 +185,9 @@ Topik keempat membahas refleksi dan inkuiri kolaboratif — bahwa peran guru tid
             {
                 name: "Tugas Topik 2D — Rencana Pembelajaran Mendalam",
                 type: "link",
-                url: "",
-                description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
-                preview: false
+                url: "https://drive.google.com/file/d/1L4jwAAf-WTX8oI_4l3Z6xPOCgJG56LE_/view?usp=sharing",
+                // description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
+                preview: true
             }
         ],
         artifactWhy: `Artefak tersebut saya pilih karena pada topik ini saya belajar menyusun RPM secara berkelompok menggunakan materi Gerbang Logika. Artefak ini menjadi penting karena memberikan gambaran mengenai langkah-langkah merancang skenario pembelajaran yang akan diterapkan di kelas. Melalui penyusunan RPM, saya menyadari bahwa guru perlu merancang pembelajaran secara matang agar proses belajar tidak hanya menjadi rutinitas semata, tetapi mampu menciptakan pembelajaran yang bermakna dan bermanfaat bagi peserta didik.`,
@@ -233,15 +238,8 @@ Pada topik keempat, saya mempelajari penerapan growth mindset di kelas: pujian y
             {
                 name: "Tugas Topik 2 — LK 2.2 \"Belajar dari Cara Kerja Otak\"",
                 type: "link",
-                url: "",
-                description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
-                preview: false
-            },
-            {
-                name: "Refleksi & Analisis Artefak Pembelajaran — Growth Mindset.pptx",
-                type: "pptx",
-                url: "assets/documents/refleksi-growth-mindset.pptx",
-                description: "Slide presentasi ringkasan refleksi 4C dan analisis artefak untuk mata kuliah ini (11 slide).",
+                url: "https://drive.google.com/file/d/1nWIT8LZqDHZOhhlOlOe7nMeKYaSB2a54/view?usp=sharing",
+                // description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
                 preview: false
             }
         ],
@@ -310,9 +308,9 @@ Topik 9 membahas isu penerapan ZPD dan Teori Sistem Ekologi Bronfenbrenner dalam
             {
                 name: "Tugas Topik 9 — LK Individu",
                 type: "link",
-                url: "",
-                description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
-                preview: false
+                url: "https://drive.google.com/file/d/1RgkC-Wm5c2o7dvAeEnNbbozhEX9RuLSa/view?usp=sharing",
+                // description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
+                preview: true
             }
         ],
         artifactWhy: `Artefak tersebut saya pilih karena pada topik ini saya memberikan perhatian khusus terhadap isu-isu penyalahgunaan Program Indonesia Pintar (PIP). Menurut saya, pelaksanaan program ini perlu dievaluasi secara menyeluruh agar bantuan yang diberikan benar-benar tepat sasaran dan tidak disalahgunakan. Analisis menggunakan Teori Sistem Ekologi Bronfenbrenner memberikan sudut pandang yang lebih komprehensif karena mengevaluasi program dari berbagai aspek lingkungan yang memengaruhi keberhasilannya.`,
@@ -359,8 +357,8 @@ Topik 5 berfokus pada penyusunan e-portofolio sebagai penilaian UTS dan UAS, mem
             {
                 name: "Tugas Topik 4 — LK Siklus 1 (Modul Ajar)",
                 type: "link",
-                url: "",
-                description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
+                url: "https://drive.google.com/file/d/1c0OXGe-e85Gg6CzGDI6s81bAlXiwcs2f/view?usp=sharing",
+                // description: "Bukti dukung hasil refleksi pengalaman belajar. GANTI dengan tautan tugas yang sebenarnya.",
                 preview: false
             }
         ],
@@ -384,7 +382,295 @@ Topik 5 berfokus pada penyusunan e-portofolio sebagai penilaian UTS dan UAS, mem
    "Coming Soon" akan otomatis berganti menjadi daftar kartu begitu
    array ini berisi data.
    ================================================================== */
-const coursesSemester2 = [];
+const coursesSemester2 = [
+
+    /* ---------- 01. PEMBELAJARAN MENDALAM DAN ASESMEN LANJUT ---------- */
+    {
+        id: "s2-1",
+        number: "01",
+        icon: "📝",
+        title: "Pembelajaran Mendalam dan Asesmen Lanjut",
+        shortDesc: "Asesmen awal kognitif (C1–C3) dan nonkognitif untuk memetakan kebutuhan belajar peserta didik.",
+
+        reflection: {
+            connection: `Sebelum mengajar, saya perlu mengenali kemampuan dan karakteristik peserta didik melalui asesmen awal. Setiap peserta didik unik dalam kemampuan, minat, gaya belajar, motivasi, dan kondisi sosial emosionalnya.
+
+Pada asesmen kognitif, saya belajar menyusun soal berdasarkan tingkat C1 sampai C3 dengan tujuan yang jelas agar hasilnya dapat diinterpretasikan. Selain tes tertulis, asesmen awal juga dapat berupa tanya jawab lisan, wawancara, observasi kinerja, dan portofolio. Pada asesmen nonkognitif, saya mempelajari cara mengetahui gaya belajar, minat, motivasi, dan kondisi sosial emosional.
+
+Data asesmen dianalisis untuk menemukan pola umum maupun kebutuhan khusus, lalu menjadi dasar tindak lanjut: mengelompokkan kebutuhan, memilih metode dan media, mendampingi peserta didik yang membutuhkan, serta memberi pengayaan bagi yang sudah lebih siap. Asesmen awal bukan sekadar untuk mendapatkan nilai, tetapi dasar merancang pembelajaran yang bermakna.`,
+
+            challenge: `Berdasarkan pengalaman praktik mengajar sebelumnya, saya belum terbiasa melakukan asesmen awal secara menyeluruh dan lebih berfokus pada penyampaian materi. Setelah mempelajari materi ini, saya menyadari pentingnya asesmen awal, sekaligus tantangan untuk belajar menyusun instrumen, menganalisis hasil asesmen, dan menentukan tindak lanjut yang sesuai.`,
+
+            concept: `1. Asesmen awal dilakukan sebelum pembelajaran untuk mengetahui kondisi kognitif dan nonkognitif peserta didik.
+2. Aspek yang dipetakan: kemampuan awal, minat, motivasi, gaya belajar, serta kondisi sosial emosional.
+3. Hasil asesmen dianalisis untuk menemukan pola kebutuhan belajar.
+4. Hasil analisis menjadi dasar menentukan strategi, metode, media, dan tindak lanjut pembelajaran.`,
+
+            change: `1. Membiasakan diri melakukan asesmen awal sebelum melaksanakan pembelajaran.
+2. Mengetahui kondisi kognitif dan nonkognitif peserta didik, lalu menganalisis hasilnya.
+3. Menggunakan hasil asesmen sebagai dasar menentukan strategi, metode, dan media pembelajaran.
+4. Merancang pembelajaran yang sesuai dengan karakteristik dan kebutuhan peserta didik.`
+        },
+
+        artifacts: [
+            {
+                name: "Tugas Topik 1C — Asesmen Awal",
+                type: "link",
+                url: "https://drive.google.com/file/d/1R1AIXVfx5nVsdgFboRk24xt56eKQxGR-/view?usp=sharing",
+                preview: false
+            }
+        ],
+        artifactWhy: `Artefak ini saya pilih karena materinya baru bagi saya. Sebelumnya saya berfokus pada cara menyampaikan materi, tetapi melalui topik ini saya belajar bahwa sebelum mengajar, guru perlu mengenali peserta didik terlebih dahulu, baik kognitif maupun nonkognitifnya. Saya juga belajar bahwa setiap soal asesmen perlu memiliki tujuan yang jelas, misalnya disusun pada tingkat C1–C2 agar sesuai dengan kemampuan yang ingin diketahui. Pemahaman baru ini dapat langsung saya gunakan dalam praktik mengajar.`,
+        artifactSupport: [
+            `Bagian asesmen awal, khususnya pembahasan asesmen kognitif dan nonkognitif — menjelaskan bahwa asesmen awal mengungkap kemampuan awal, minat, motivasi, gaya belajar, dan kondisi sosial emosional peserta didik.`,
+            `Hasil asesmen dianalisis untuk mengetahui kebutuhan peserta didik dan menjadi dasar strategi serta tindak lanjut pembelajaran — mendukung refleksi bahwa guru perlu mengenali karakteristik peserta didik sebelum mengajar.`
+        ],
+
+        materials: [],
+        documents: []
+    },
+
+    /* ---------- 02. PEMBELAJARAN SOSIAL DAN EMOSIONAL ---------- */
+    {
+        id: "s2-2",
+        number: "02",
+        icon: "💙",
+        title: "Pembelajaran Sosial dan Emosional",
+        shortDesc: "Lima kompetensi CASEL: kesadaran diri, pengelolaan diri, kesadaran sosial, keterampilan relasi, dan pengambilan keputusan bertanggung jawab.",
+
+        reflection: {
+            connection: `Perkembangan peserta didik tidak hanya dilihat dari kemampuan akademik, tetapi juga dari kondisi sosial dan emosionalnya. Karena itu, sebagai calon guru saya perlu memahami dan menerapkan Pembelajaran Sosial Emosional (PSE) berdasarkan kerangka CASEL, yang memiliki lima komponen:
+
+1. Kesadaran Diri (Self-Awareness): mengenali emosi, pikiran, dan kondisi diri sendiri.
+2. Pengelolaan Diri (Self-Management): mengatur emosi, pikiran, dan perilaku, misalnya tidak langsung menyerah atau marah saat tugas sulit.
+3. Kesadaran Sosial (Social Awareness): memahami sudut pandang dan berempati kepada orang lain.
+4. Keterampilan Relasi (Relationship Skills): membangun hubungan sehat melalui komunikasi, mendengarkan, dan bekerja sama.
+5. Pengambilan Keputusan yang Bertanggung Jawab (Responsible Decision-Making): membuat pilihan tepat dengan mempertimbangkan konsekuensi.
+
+Kelima komponen ini membantu saya menciptakan suasana pembelajaran yang lebih nyaman dan positif, agar peserta didik berkembang secara akademik sekaligus mampu mengelola emosi, berinteraksi dengan baik, dan mengambil keputusan yang bertanggung jawab.`,
+
+            challenge: `Berdasarkan pengalaman praktik mengajar sebelumnya, saya masih lebih berfokus pada penyampaian materi dan pengelolaan kelas. Ketika peserta didik gaduh, saya lebih memikirkan cara agar kelas kembali kondusif tanpa memperhatikan kondisi emosi peserta didik maupun emosi saya sendiri. Penerapan PSE menuntut perubahan cara saya menghadapi dan merespons situasi di kelas.`,
+
+            concept: `1. PSE berkaitan dengan perkembangan peserta didik sekaligus kemampuan guru mengelola diri dan membangun hubungan baik dengan peserta didik.
+2. PSE memiliki lima kompetensi utama CASEL.
+3. PSE dapat diterapkan melalui diskusi, kerja kelompok, bermain peran, dan pembiasaan di lingkungan sekolah.`,
+
+            change: `1. Lebih memperhatikan kondisi sosial dan emosional peserta didik selama pembelajaran.
+2. Mengenali kondisi peserta didik terlebih dahulu dan tidak langsung bereaksi pada situasi kelas yang kurang kondusif.
+3. Belajar mengelola emosi diri serta berkomunikasi dengan lebih tenang dan tegas.
+4. Menerapkan lima kompetensi PSE dalam pembelajaran.`
+        },
+
+        artifacts: [
+            {
+                name: "Tugas UTS — RPM Berbasis PSE (CASEL)",
+                type: "link",
+                url: "https://drive.google.com/file/d/1yJA04hbbLhjmrMBemzfHZX4Agw-UWdWo/view?usp=sharing",
+                preview: false
+            }
+        ],
+        artifactWhy: `Artefak ini saya pilih karena memberi kesempatan menerapkan teori PSE berdasarkan kerangka CASEL. Saya merancang RPM yang memuat lima kompetensi CASEL dan memberi label pada kegiatan pembelajaran untuk menunjukkan kompetensi PSE yang diterapkan. RPM ini dapat menjadi panduan praktik PSE di kelas, sehingga artefak ini menghubungkan teori yang dipelajari dengan praktik pembelajaran.`,
+        artifactSupport: [
+            `Bagian perancangan RPM yang menerapkan lima kompetensi CASEL — kesadaran diri, pengelolaan diri, kesadaran sosial, keterampilan relasi, dan pengambilan keputusan yang bertanggung jawab.`,
+            `Pelabelan kegiatan pembelajaran sesuai kompetensi CASEL — menunjukkan bagaimana teori PSE diwujudkan dalam kegiatan nyata dan menjadi dasar praktik mengajar.`
+        ],
+
+        materials: [],
+        documents: []
+    },
+
+    /* ---------- 03. PROJEK KEPEMIMPINAN ---------- */
+    {
+        id: "s2-3",
+        number: "03",
+        icon: "🚀",
+        title: "Projek Kepemimpinan",
+        shortDesc: "Perspective Taking (See, Think, Wonder), SDGs, dan perancangan projek untuk solusi permasalahan nyata.",
+
+        reflection: {
+            connection: `Guru tidak hanya mengajar, tetapi juga perlu memimpin, bekerja sama, berkomunikasi, dan menyelesaikan masalah. Melalui mata kuliah ini, saya belajar bahwa kepemimpinan dapat dikembangkan lewat pengalaman langsung merancang dan menjalankan projek untuk menghasilkan solusi nyata.
+
+Pada Topik 1, saya mempelajari Perspective Taking melalui tahap Tuning In:
+• See (Mengamati): mengamati kondisi nyata tanpa asumsi, misalnya sampah menumpuk dan tempat sampah belum digunakan dengan baik.
+• Think (Berpikir): memahami kemungkinan penyebab, misalnya tempat sampah kurang, masyarakat belum memilah sampah, atau pengangkutan tidak rutin.
+• Wonder (Bertanya): memunculkan pertanyaan dan ide solusi, misalnya "Bagaimana jika dibuat tempat sampah yang membantu memilah sampah?"
+
+Pada Topik 2, saya mempelajari SDGs (Sustainable Development Goals), yaitu 17 tujuan global hingga tahun 2030, sebagai dasar menentukan masalah dan manfaat projek. Contohnya, projek pengelolaan sampah dikaitkan dengan SDG 12 tentang konsumsi dan produksi yang bertanggung jawab.`,
+
+            challenge: `Berdasarkan pengalaman praktik mengajar sebelumnya, saya lebih berfokus pada pembelajaran di dalam kelas dan belum terbiasa merancang serta mengelola projek yang berangkat dari permasalahan nyata. Saya juga belum terbiasa melihat masalah dari berbagai sudut pandang melalui See, Think, dan Wonder. Materi ini menantang karena menuntut kemampuan bekerja sama, mengelola projek, dan menghasilkan solusi bermanfaat.`,
+
+            concept: `1. Kepemimpinan dapat dikembangkan melalui pengalaman langsung merancang dan menjalankan projek untuk masalah nyata.
+2. Perspective Taking (See, Think, Wonder) membantu mengamati kondisi, memahami masalah, dan menemukan pertanyaan atau solusi.
+3. SDGs menjadi dasar menentukan arah dan manfaat projek.
+4. Calon guru perlu mampu memimpin, bekerja sama, berkomunikasi, dan menyelesaikan masalah.`,
+
+            change: `1. Lebih mampu memahami permasalahan sebelum menentukan tindakan atau solusi.
+2. Membiasakan tahapan See, Think, dan Wonder agar tidak mengambil keputusan berdasarkan asumsi.
+3. Lebih aktif bekerja sama, berkomunikasi, dan mengambil peran dalam projek.
+4. Mempertimbangkan SDGs dalam menentukan tujuan dan manfaat projek.`
+        },
+
+        artifacts: [
+            {
+                name: "Tugas UTS — Rancangan Produk Pemilah Sampah Otomatis",
+                type: "link",
+                url: "https://drive.google.com/file/d/1f1rAqItGaU8wHL1Gyg9pXvugXaPp2K3L/view?usp=sharing",
+                preview: false
+            }
+        ],
+        artifactWhy: `Artefak ini saya pilih karena saya belajar menyusun rancangan produk berdasarkan masalah yang ditemukan melalui See, Think, dan Wonder, serta menentukan tujuan projek berdasarkan SDGs. Saya juga belajar membagi peran anggota agar setiap anggota berkontribusi. Artefak berupa produk pemilah sampah otomatis dan media edukasi interaktif sebagai solusi pengelolaan sampah, sehingga menunjukkan penerapan materi dalam projek nyata.`,
+        artifactSupport: [
+            `Bagian rancangan produk pemilah sampah otomatis dan edukasi interaktif yang menerapkan See, Think, Wonder — menunjukkan saya memahami masalah terlebih dahulu sebelum merancang solusi.`,
+            `Pembagian peran dalam projek — menunjukkan kerja sama dengan anggota kelompok dalam menjalankan projek.`
+        ],
+
+        materials: [],
+        documents: []
+    },
+
+    /* ---------- 04. SEMINAR PROFESI PENDIDIKAN GURU ---------- */
+    {
+        id: "s2-4",
+        number: "04",
+        icon: "🎓",
+        title: "Seminar Profesi Pendidikan Guru",
+        shortDesc: "Menghubungkan pengalaman belajar Semester I dan II menjadi karya inovasi dan portofolio refleksi.",
+
+        reflection: {
+            connection: `Seminar PPG berkaitan erat dengan pengalaman belajar saya selama Semester I dan II. Melalui refleksi 4C, saya tidak hanya mengingat materi, tetapi juga memahami pengalaman, tantangan, konsep, dan perubahan yang saya dapatkan. Pengalaman tersebut menjadi bekal merancang pembelajaran, memahami karakteristik peserta didik, menggunakan media, menyelesaikan masalah, dan bekerja sama. Semuanya saya hubungkan dalam perancangan karya inovasi, seperti desain pembelajaran, video pendidikan, multimedia interaktif, atau alat peraga edukatif, yang relevan dengan kebutuhan pembelajaran.`,
+
+            challenge: `Sebelumnya saya lebih berfokus pada merancang dan melaksanakan pembelajaran agar peserta didik memahami materi. Saya belum terbiasa menghubungkan pengalaman dan pengetahuan dari berbagai mata kuliah menjadi karya inovasi sebagai solusi pembelajaran. Dalam Seminar PPG, saya perlu meninjau kembali pengalaman Semester I dan II, memilih pengetahuan yang relevan, dan menggabungkannya menjadi karya yang bermanfaat.`,
+
+            concept: `1. Pengalaman dan pengetahuan dari berbagai mata kuliah dapat dihubungkan menjadi karya inovasi yang sesuai kebutuhan pembelajaran.
+2. Membuat karya inovasi memerlukan kemampuan mengidentifikasi masalah, menentukan solusi, merancang produk, dan menyesuaikannya dengan karakteristik peserta didik.
+3. Teori perkuliahan tidak hanya dipahami sebagai konsep, tetapi dapat diterapkan menjadi karya nyata.`,
+
+            change: `1. Lebih mampu menghubungkan pengetahuan dan pengalaman dari berbagai mata kuliah untuk diterapkan dalam pembelajaran.
+2. Tidak hanya memahami teori, tetapi mencari cara menerapkannya dalam karya atau solusi sesuai kebutuhan peserta didik.
+3. Lebih kreatif dan berani mencoba membuat karya inovasi.
+4. Memanfaatkan pengalaman Semester I dan II untuk mengembangkan pembelajaran yang lebih bermakna.`
+        },
+
+        artifacts: [
+            {
+                name: "Portofolio Seminar PPG",
+                type: "link",
+                url: "https://anommudita.github.io/seminar-ppg/",
+                preview: false
+            }
+        ],
+        artifactWhy: `Artefak ini saya pilih karena berupa portofolio refleksi pengalaman belajar selama Semester I dan II. Berbagai pengalaman, proses, tantangan, dan perubahan yang saya alami terdokumentasi dengan baik, sekaligus menjadi gambaran bagi orang lain tentang perjalanan belajar saya selama PPG. Portofolio ini bukan hanya hasil refleksi, tetapi juga dokumentasi perjalanan belajar saya sebagai calon guru.`,
+        artifactSupport: [
+            `Bagian portofolio yang memuat refleksi pengalaman belajar Semester I dan II — menunjukkan pengalaman, tantangan, konsep, dan perubahan selama perkuliahan.`,
+            `Dokumentasi hasil karya dan kegiatan — menunjukkan proses belajar yang telah dilalui secara nyata dan dapat dilihat orang lain.`
+        ],
+
+        materials: [],
+        documents: []
+    },
+
+    /* ---------- 05. TRI HITA KARANA ---------- */
+    {
+        id: "s2-5",
+        number: "05",
+        icon: "🌺",
+        title: "Tri Hita Karana",
+        shortDesc: "Parahyangan, Pawongan, dan Palemahan sebagai kearifan lokal Bali dalam pembelajaran dan budaya sekolah.",
+
+        reflection: {
+            connection: `Guru tidak hanya menyampaikan materi, tetapi juga membentuk karakter dan menanamkan nilai kebaikan. Tri Hita Karana adalah kearifan lokal Bali yang perlu dilestarikan dan diterapkan sehari-hari, termasuk di sekolah, melalui tiga konsep: Parahyangan (hubungan dengan Tuhan), Pawongan (hubungan dengan sesama manusia), dan Palemahan (hubungan dengan lingkungan).
+
+Hal ini berkaitan dengan pengalaman mengajar saya di SMP Negeri 2 Singaraja. Saya mengamati bahwa kerja sama antarpeserta didik masih perlu dikembangkan dan kesadaran menjaga kebersihan kantin perlu ditingkatkan. Nilai kearifan lokal tidak cukup dipelajari secara teori, tetapi perlu diwujudkan melalui kebiasaan dan tindakan nyata, dengan guru sebagai teladan.`,
+
+            challenge: `Tantangan bagi saya adalah memahami bahwa pendidikan tidak hanya berfokus pada capaian akademik, tetapi juga pembentukan karakter melalui nilai kearifan lokal. Selama ini saya lebih berfokus pada penyampaian materi dan penyelesaian tugas. Tantangannya adalah mengintegrasikan nilai Tri Hita Karana secara konsisten, tidak sekadar teori atau formalitas, misalnya melalui kebiasaan saling membantu, menghargai perbedaan, menjaga kebersihan, dan bertanggung jawab terhadap lingkungan sekolah.`,
+
+            concept: `1. Parahyangan: menjaga hubungan dengan Tuhan melalui kegiatan spiritual dan pembentukan karakter.
+2. Pawongan: hubungan harmonis antarmanusia melalui saling menghargai, toleransi, kerja sama, dan kepedulian.
+3. Palemahan: menjaga lingkungan melalui kebersihan, pengurangan sampah, dan pelestarian alam.
+4. Penerapan di SMP Negeri 2 Singaraja: Tri Sandya bersama, kerja sama dan tutor sebaya, serta program Ketahanan Pangan (menanam dan merawat sayuran).
+5. Keberhasilan penerapan membutuhkan keteladanan guru, pembiasaan yang konsisten, dan keterlibatan seluruh warga sekolah.`,
+
+            change: `1. Mengintegrasikan nilai Parahyangan, Pawongan, dan Palemahan ke dalam pembelajaran dan budaya sekolah.
+2. Menjadi teladan dan membangun kebiasaan positif bersama peserta didik.
+3. Merancang kegiatan yang membantu peserta didik menerapkan nilai Tri Hita Karana dalam kehidupan nyata.
+4. Mendorong peserta didik peduli terhadap sesama, bertanggung jawab, dan melestarikan kearifan lokal Bali.`
+        },
+
+        artifacts: [
+            {
+                name: "Tugas UTS THK — RPM Kasus Komersialisasi Konten Subak Bali",
+                type: "link",
+                url: "https://drive.google.com/file/d/1PVLzjHWbtxJa3V6maNZu1MVJh-PyKFWG/view?usp=sharing",
+                preview: false
+            }
+        ],
+        artifactWhy: `Saya memilih RPM berbasis kasus komersialisasi konten Subak Bali karena relevan dengan perkembangan teknologi digital dan fenomena media sosial. Kasus ini menunjukkan teknologi dapat mempromosikan budaya Bali, tetapi juga berpotensi menimbulkan masalah bila digunakan tanpa memperhatikan etika, kepentingan masyarakat, dan kelestarian lingkungan.
+
+Melalui RPM ini, saya mengintegrasikan tiga aspek Tri Hita Karana ke dalam pembelajaran Informatika agar peserta didik tidak sekadar mengikuti tren viral, tetapi memahami dampak konten digital dan mampu merancang langkah mitigasi.`,
+        artifactSupport: [
+            `Analisis kasus komersialisasi konten Subak Bali berdasarkan tiga aspek Tri Hita Karana, literasi digital, dan tanggung jawab pihak-pihak terkait — menunjukkan konten viral dapat menimbulkan persoalan budaya, sosial, dan lingkungan.`,
+            `Perancangan RPM yang mengintegrasikan Parahyangan, Pawongan, dan Palemahan — melatih peserta didik berpikir kritis, memahami dampak teknologi, dan merancang langkah mitigasi.`
+        ],
+
+        materials: [],
+        documents: []
+    },
+
+    /* ---------- 06. PPL MANDIRI ---------- */
+    {
+        id: "s2-6",
+        number: "06",
+        icon: "🏫",
+        title: "Praktik Pengalaman Lapangan Mandiri",
+        shortDesc: "Penerapan TaRL, CRT, dan UDL dalam praktik mengajar Informatika di SMP Negeri 2 Singaraja.",
+
+        reflection: {
+            connection: `PPL Mandiri (Topik 1–5) menghubungkan teori perkuliahan dengan praktik nyata di sekolah: manajemen sekolah, karakteristik peserta didik, lingkungan belajar, penyusunan perangkat pembelajaran, praktik mengajar, serta evaluasi dan refleksi.
+
+Saya juga mempelajari dan menerapkan tiga pendekatan:
+• TaRL (Teaching at the Right Level): menyesuaikan pembelajaran dengan tingkat kemampuan peserta didik.
+• CRT (Culturally Responsive Teaching): menghubungkan pembelajaran dengan latar belakang budaya dan pengalaman peserta didik.
+• UDL (Universal Design for Learning): menyediakan beragam cara mengakses materi, terlibat, dan menunjukkan hasil belajar.
+
+Pengalaman ini memperkuat pemahaman saya bahwa pembelajaran perlu berpusat pada peserta didik, inklusif, dan sesuai kebutuhan belajar mereka.`,
+
+            challenge: `Tantangan saya adalah menerapkan teori pedagogik dalam kondisi pembelajaran nyata yang beragam: memahami karakteristik dan kemampuan peserta didik, mengelola kelas, dan menentukan strategi yang sesuai. Penerapan TaRL, CRT, dan UDL menuntut saya merancang pembelajaran dengan lebih cermat agar tidak semua peserta didik diperlakukan sama. Saya juga perlu memastikan setiap peserta didik dapat berpartisipasi aktif melalui asesmen awal, konteks yang dekat dengan kehidupan mereka, variasi media dan aktivitas, serta pendampingan.`,
+
+            concept: `1. Memahami lingkungan sekolah, karakteristik peserta didik, dan merancang perangkat pembelajaran.
+2. Melaksanakan pembelajaran secara efektif serta melakukan evaluasi dan refleksi berkelanjutan.
+3. TaRL: pembelajaran sesuai tingkat kemampuan aktual peserta didik.
+4. CRT: pembelajaran kontekstual yang terhubung dengan budaya dan pengalaman peserta didik.
+5. UDL: beragam cara penyajian informasi, keterlibatan, dan penunjukan hasil belajar.`,
+
+            change: `1. Lebih memperhatikan karakteristik dan kemampuan awal peserta didik melalui asesmen.
+2. Mengembangkan pembelajaran kontekstual yang terhubung dengan budaya, lingkungan, dan pengalaman peserta didik.
+3. Menyediakan variasi media, metode, dan aktivitas sesuai prinsip UDL.
+4. Meningkatkan kemampuan mengelola kelas dan memberikan pendampingan yang tepat.
+5. Membiasakan refleksi setelah pembelajaran agar menjadi guru yang adaptif dan reflektif.`
+        },
+
+        artifacts: [
+            {
+                name: "Tugas Topik 4 — LK Siklus 4 (Modul Ajar)",
+                type: "link",
+                url: "https://drive.google.com/file/d/1D0i1BmCScn0RH_0VeFk53KWptPLVxvhU/view?usp=sharing",
+                preview: false
+            }
+        ],
+        artifactWhy: `Saya memilih LK 4 Refleksi Praktik Pembelajaran Mandiri (Siklus 4) karena menggambarkan pengalaman nyata mengajar Informatika di SMP Negeri 2 Singaraja, khususnya literasi digital tentang perancangan dan pembuatan blog. Saya menemukan tantangan seperti keterbatasan fasilitas laboratorium, perbedaan perangkat peserta didik, dan kesulitan merancang tampilan blog secara manual.
+
+Artefak ini juga memuat refleksi dan rencana perbaikan, seperti video tutorial untuk laptop dan HP serta penggunaan Figma sebagai alternatif perancangan blog. Pengalaman ini membantu saya menerapkan TaRL, UDL, dan CRT, serta belajar menjadi guru yang reflektif dan terbuka terhadap umpan balik.`,
+        artifactSupport: [
+            `Uraian pelaksanaan pembelajaran literasi digital (perancangan dan pembuatan blog) — kelas IX.1 lebih aktif dan tertib, kelas IX.5 lebih tertarik praktik, sebagian peserta didik kesulitan mengikuti tutorial karena perangkat berbeda dan belum menyelesaikan blog karena keterbatasan perangkat di rumah.`,
+            `Umpan balik guru pamong dan rencana tindak lanjut — video tutorial yang dapat diakses lewat laptop maupun HP serta Figma sebagai alternatif; mendukung refleksi tentang pembelajaran yang fleksibel (UDL), sesuai tingkat kemampuan (TaRL), dan kontekstual (CRT).`
+        ],
+
+        materials: [],
+        documents: []
+    }
+
+];
+
 
 
 /* ==================================================================
@@ -392,15 +678,18 @@ const coursesSemester2 = [];
    ================================================================== */
 const courseGrid = document.getElementById("courseGrid");
 const courseGridEmpty = document.getElementById("courseGridEmpty");
+const courseGridSemester2 = document.getElementById("coursesSemester2");
+const courseGridEmptySemester2 = document.getElementById("courseGridEmptySemester2");
 
-function renderCourseCards(list) {
-    courseGrid.innerHTML = "";
+function renderCourseCards(list, grid = courseGrid, emptyEl = courseGridEmpty, emptyText = "") {
+    grid.innerHTML = "";
 
     if (list.length === 0) {
-        courseGridEmpty.hidden = false;
+        if (emptyText) emptyEl.textContent = emptyText;
+        emptyEl.hidden = false;
         return;
     }
-    courseGridEmpty.hidden = true;
+    emptyEl.hidden = true;
 
     list.forEach((course, index) => {
         const card = document.createElement("button");
@@ -422,7 +711,7 @@ function renderCourseCards(list) {
             </span>
         `;
         card.addEventListener("click", () => openCourseModal(course.id));
-        courseGrid.appendChild(card);
+        grid.appendChild(card);
         // trigger reveal animation for dynamically-added cards
         requestAnimationFrame(() => {
             observeReveal(card);
@@ -431,6 +720,16 @@ function renderCourseCards(list) {
 }
 
 renderCourseCards(courses);
+
+// Semester 2
+renderCourseCards(
+    coursesSemester2,
+    courseGridSemester2,
+    courseGridEmptySemester2,
+    "Mata kuliah Semester 2 belum ditambahkan."
+);
+
+
 
 
 /* ==================================================================
@@ -775,6 +1074,23 @@ courseSearch.addEventListener("input", () => {
     renderCourseCards(filtered);
 });
 
+// Pencarian Semester 2
+const courseSearchSemester2 = document.getElementById("courseSearchSemester2");
+courseSearchSemester2.addEventListener("input", () => {
+    const query = courseSearchSemester2.value.trim().toLowerCase();
+    const filtered = coursesSemester2.filter(c =>
+        c.title.toLowerCase().includes(query) || c.shortDesc.toLowerCase().includes(query)
+    );
+    renderCourseCards(
+        filtered,
+        courseGridSemester2,
+        courseGridEmptySemester2,
+        coursesSemester2.length === 0
+            ? "Mata kuliah Semester 2 belum ditambahkan."
+            : "Tidak ada mata kuliah yang cocok dengan pencarianmu."
+    );
+});
+
 
 /* ==================================================================
    11. FOOTER — identitas & tahun
@@ -792,7 +1108,7 @@ document.getElementById("footerYear").textContent = new Date().getFullYear();
    ================================================================== */
 (function initFromHash() {
     const hash = window.location.hash;
-    const match = hash.match(/^#course-(\d+)$/);
+    const match = hash.match(/^#course-([\w-]+)$/);
     if (match) {
         const course = findCourseById(match[1]);
         if (course) openCourseModal(course.id);
