@@ -43,6 +43,7 @@
             </a>
 
             <nav class="navbar__nav" id="navbarNav" aria-label="Navigasi utama">
+                <a href="#tentang" class="navbar__link" data-nav-link data-target="tentang">Tentang Saya</a>
                 <a href="#semester1" class="navbar__link" data-nav-link data-target="semester1">Semester 1</a>
                 <a href="#semester2" class="navbar__link" data-nav-link data-target="semester2">Semester 2</a>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Ubah tampilan gelap/terang" title="Mode gelap/terang">
@@ -58,6 +59,7 @@
 
         <!-- Mobile menu -->
         <nav class="mobile-menu" id="mobileMenu" aria-label="Navigasi mobile">
+            <a href="#tentang" class="mobile-menu__link" data-nav-link data-target="tentang">Tentang Saya</a>
             <a href="#semester1" class="mobile-menu__link" data-nav-link data-target="semester1">Semester 1</a>
             <a href="#semester2" class="mobile-menu__link" data-nav-link data-target="semester2">Semester 2</a>
         </nav>
@@ -98,6 +100,83 @@
             <a href="#semester1" class="hero__scroll-cue" data-nav-link data-target="semester1" aria-label="Gulir ke bawah">
                 <span></span>
             </a>
+        </section>
+
+        <!-- ============================================================
+             TENTANG SAYA (setelah jumbotron, sebelum Semester 1)
+             Ganti teks di bagian ini sesuai dirimu. Foto: assets/images/profile.jpg
+             ============================================================ -->
+        <section class="about" id="tentang">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <span class="section-heading__eyebrow">Tentang Saya</span>
+                    <h2 class="section-heading__title">Mengenal Calon Guru Informatika</h2>
+                </div>
+
+                <div class="about__profile" data-reveal>
+                    <div class="about__photo">
+                        <!-- GANTI FOTO: assets/images/profile.jpg -->
+                        <img src="assets/images/profile.jpg" alt="Foto Ida Bagus Anom Mudita" class="about__photo-img" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 480%22%3E%3Crect width=%22400%22 height=%22480%22 fill=%22%23274690%22/%3E%3Ctext x=%2250%25%22 y=%2255%25%22 font-family=%22sans-serif%22 font-size=%22120%22 fill=%22%23fff%22 text-anchor=%22middle%22%3E%F0%9F%91%A4%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="about__text">
+                        <h3 class="about__name">Ida Bagus Anom Mudita</h3>
+                        <p class="about__role">Mahasiswa PPG &middot; Calon Guru Informatika</p>
+                        <!-- GANTI DESKRIPSI DIRI DI BAWAH INI -->
+                        <p>
+                            Saya adalah mahasiswa Pendidikan Profesi Guru (PPG) di Universitas Pendidikan Ganesha
+                            yang sedang melaksanakan PPL Mandiri di SMP Negeri 2 Singaraja pada mata pelajaran
+                            Informatika, Fase D Kelas IX.
+                        </p>
+                        <p>
+                            Saya senang memadukan teknologi dengan pembelajaran, mulai dari media digital interaktif,
+                            e-book, hingga web pembelajaran, agar materi Informatika terasa dekat, bermakna, dan
+                            menyenangkan bagi peserta didik.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__vision" data-reveal>
+                    <h3 class="about__vision-heading">Inspirasi dan Tujuan</h3>
+                    <div class="vision-grid">
+                        <article class="vision-card">
+                            <span class="vision-card__num">1</span>
+                            <h4 class="vision-card__q">Apa visi saya untuk pendidikan di Indonesia?</h4>
+                            <!-- GANTI JAWABAN -->
+                            <p>
+                                Pendidikan di Indonesia yang berpusat pada peserta didik, membentuk karakter sekaligus
+                                mengembangkan potensi, sehingga setiap anak tumbuh menjadi pribadi yang berpikir kritis,
+                                kreatif, mandiri, dan bijaksana menghadapi perkembangan zaman dan teknologi.
+                            </p>
+                        </article>
+                        <article class="vision-card">
+                            <span class="vision-card__num">2</span>
+                            <h4 class="vision-card__q">Apa visi saya sebagai calon guru?</h4>
+                            <!-- GANTI JAWABAN -->
+                            <p>
+                                Menjadi guru profesional yang tidak hanya menyampaikan materi, tetapi juga membimbing,
+                                memotivasi, dan menjadi teladan, serta mengajak peserta didik memanfaatkan teknologi
+                                secara positif dan bertanggung jawab.
+                            </p>
+                        </article>
+                        <article class="vision-card">
+                            <span class="vision-card__num">3</span>
+                            <h4 class="vision-card__q">Apa yang akan saya lakukan untuk mencapai visi tersebut?</h4>
+                            <!-- GANTI JAWABAN -->
+                            <p>
+                                Memahami karakteristik peserta didik melalui asesmen awal, merancang pembelajaran yang
+                                bermakna dan menyenangkan dengan media digital, serta terus berefleksi dan
+                                mengembangkan kompetensi sebagai guru.
+                            </p>
+                        </article>
+                    </div>
+
+                    <!-- GANTI KUTIPAN -->
+                    <blockquote class="about__quote">
+                        <p>&ldquo;Guru yang baik tidak hanya mengajar, tetapi menuntun setiap peserta didik menemukan potensinya.&rdquo;</p>
+                        <footer>&mdash; Ida Bagus Anom Mudita</footer>
+                    </blockquote>
+                </div>
+            </div>
         </section>
 
         <!-- ============================================================
@@ -171,7 +250,46 @@
                     Tidak ada mata kuliah yang cocok dengan pencarianmu.
                 </p>
 
-               
+                <!-- ============================================================
+                     REFLEKSI PENGALAMAN BELAJAR SELAMA MENGIKUTI PPG
+                     ============================================================ -->
+                <div class="lk3" id="refleksiPpg" data-reveal>
+                    <div class="lk3__head">
+                        <span class="section-heading__eyebrow">Refleksi Akhir</span>
+                        <h3 class="lk3__title">Refleksi Pengalaman Belajar Selama Mengikuti PPG</h3>
+                    </div>
+
+                    <article class="lk3-card">
+                        <span class="lk3-card__num">1</span>
+                        <h4 class="lk3-card__q">Setelah mengikuti rangkaian refleksi pengalaman belajar, menurut Anda, bagaimana seharusnya pendidikan di Indonesia?</h4>
+                        <p>Menurut saya, pendidikan di Indonesia seharusnya tidak hanya berfokus pada pencapaian akademik, tetapi juga pada pembentukan karakter dan pengembangan potensi peserta didik. Guru perlu memahami bahwa setiap peserta didik memiliki kemampuan, minat, kebutuhan, dan latar belakang yang berbeda. Oleh karena itu, pembelajaran harus berpusat pada peserta didik, disesuaikan dengan kebutuhan mereka, serta mendorong mereka untuk berpikir kritis, kreatif, mandiri, dan mampu menerapkan pengetahuan dalam kehidupan sehari-hari. Pendidikan juga perlu menanamkan nilai moral, tanggung jawab, dan sikap saling menghargai agar peserta didik dapat menghadapi perkembangan zaman dan teknologi dengan bijaksana.</p>
+                    </article>
+
+                    <article class="lk3-card">
+                        <span class="lk3-card__num">2</span>
+                        <h4 class="lk3-card__q">Apa saja yang dapat Anda lakukan untuk menjadi guru profesional?</h4>
+                        <p>Untuk menjadi guru profesional, saya perlu terus meningkatkan kompetensi pedagogik, profesional, sosial, dan kepribadian. Berdasarkan pengalaman belajar selama PPG, saya menyadari pentingnya memahami karakteristik peserta didik, merancang pembelajaran yang bermakna, menerapkan asesmen awal, formatif, dan sumatif, serta melakukan refleksi untuk memperbaiki proses pembelajaran. Selain itu, saya perlu menerapkan <em>growth mindset</em>, mengembangkan kemampuan sosial emosional, memberikan teladan yang baik, dan mematuhi kode etik profesi guru. Melalui praktik mengajar dan evaluasi secara berkelanjutan, saya berharap dapat menjadi guru yang mampu membimbing peserta didik sesuai dengan kebutuhan dan potensinya.</p>
+                    </article>
+
+                    <article class="lk3-card">
+                        <span class="lk3-card__num">3</span>
+                        <h4 class="lk3-card__q">Rencana Tindak Lanjut: Apa saja tiga hal penting yang akan Anda lakukan ketika memulai karier sebagai guru?</h4>
+                        <ol class="lk3-steps">
+                            <li>
+                                <strong>Memahami karakteristik dan kebutuhan peserta didik.</strong>
+                                Saya akan melakukan asesmen awal untuk mengetahui kemampuan, minat, dan kebutuhan belajar peserta didik. Hasilnya akan saya gunakan untuk merancang pembelajaran yang sesuai dengan kondisi mereka.
+                            </li>
+                            <li>
+                                <strong>Menciptakan pembelajaran yang bermakna dan menyenangkan.</strong>
+                                Saya akan menggunakan metode, media digital, dan kegiatan pembelajaran yang bervariasi agar peserta didik aktif, mampu berpikir kritis, serta dapat menerapkan pengetahuan dalam kehidupan sehari-hari. Saya juga akan menanamkan nilai moral dan karakter melalui kegiatan pembelajaran.
+                            </li>
+                            <li>
+                                <strong>Terus mengembangkan diri dan melakukan refleksi.</strong>
+                                Saya akan mengevaluasi pembelajaran yang telah dilaksanakan, menerima masukan dari peserta didik dan rekan guru, serta mengikuti kegiatan pengembangan kompetensi. Saya juga akan berusaha menerapkan kode etik profesi dan menjadi teladan bagi peserta didik dalam sikap maupun perilaku.
+                            </li>
+                        </ol>
+                    </article>
+                </div>
             </div>
         </section>
 

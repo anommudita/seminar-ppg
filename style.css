@@ -1093,3 +1093,128 @@ html.theme-dark .course-tabs__btn.is-active { color: #9db4f5; }
 
     .footer__inner { flex-direction: column; }
 }
+
+
+/* ==================================================================
+   TAMBAHAN — TENTANG SAYA & REFLEKSI PENGALAMAN BELAJAR PPG
+   ================================================================== */
+.about { padding: 108px 0; background: var(--background-color); }
+
+.about__profile {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 48px;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto 72px;
+}
+.about__photo {
+    border-radius: var(--radius-lg);
+    padding: 6px;
+    background: linear-gradient(135deg, var(--accent-color), rgba(245,158,11,0.15));
+    box-shadow: var(--shadow-lg);
+}
+.about__photo-img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: calc(var(--radius-lg) - 6px);
+    border: 3px solid var(--primary-color);
+}
+.about__name { font-size: clamp(1.6rem, 3vw, 2.1rem); margin-bottom: 6px; }
+.about__role {
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+html.theme-dark .about__role { color: #9db4f5; }
+.about__text p { font-size: 1.02rem; }
+
+.about__vision { max-width: 1080px; margin: 0 auto; }
+.about__vision-heading {
+    text-align: center;
+    font-size: clamp(1.5rem, 2.8vw, 2rem);
+    margin-bottom: 32px;
+}
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+.vision-card, .lk3-card {
+    position: relative;
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: 28px 26px;
+    transition: transform var(--transition-med), box-shadow var(--transition-med);
+}
+.vision-card:hover, .lk3-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.vision-card::before, .lk3-card::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 22px; bottom: 22px;
+    width: 4px;
+    border-radius: 0 4px 4px 0;
+    background: var(--accent-color);
+}
+.vision-card__num, .lk3-card__num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 14px;
+}
+.vision-card__q, .lk3-card__q {
+    font-size: 1.12rem;
+    line-height: 1.35;
+    margin-bottom: 12px;
+}
+
+.about__quote {
+    margin: 48px auto 0;
+    max-width: 780px;
+    padding: 34px 38px;
+    text-align: center;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    box-shadow: var(--shadow-md);
+}
+.about__quote p {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.about__quote footer { color: rgba(255,255,255,0.8); font-weight: 600; font-size: 0.92rem; }
+
+/* Refleksi PPG di Semester 2 */
+.lk3 { max-width: 900px; margin: 72px auto 0; }
+.lk3__head { text-align: center; margin-bottom: 32px; }
+.lk3__title { font-size: clamp(1.5rem, 2.8vw, 2.1rem); }
+.lk3-card { margin-bottom: 20px; padding-left: 32px; }
+.lk3-card p { font-size: 1rem; line-height: 1.75; }
+.lk3-card p em { color: var(--text-color); }
+.lk3-steps { margin: 0; padding-left: 20px; color: var(--text-muted); }
+.lk3-steps li { margin-bottom: 14px; line-height: 1.75; }
+.lk3-steps li:last-child { margin-bottom: 0; }
+.lk3-steps strong { display: block; color: var(--text-color); margin-bottom: 2px; }
+
+@media (max-width: 980px) {
+    .vision-grid { grid-template-columns: 1fr; }
+    .about__profile { grid-template-columns: 260px 1fr; gap: 32px; }
+}
+@media (max-width: 760px) {
+    .about { padding: 72px 0; }
+    .about__profile { grid-template-columns: 1fr; text-align: center; }
+    .about__photo { max-width: 260px; margin-inline: auto; }
+    .about__quote { padding: 26px 22px; }
+}

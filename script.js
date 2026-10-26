@@ -37,36 +37,49 @@ const courses = [
         shortDesc: "Pemikiran Ki Hadjar Dewantara, growth mindset, pendidikan nilai, dan kode etik profesi guru.",
 
         reflection: {
-            connection: `Materi perkuliahan pada topik 1 sampai topik 4 memiliki keterkaitan yang sangat erat dengan peran saya sebagai calon guru. Pada topik pertama, saya memahami pemikiran Ki Hadjar Dewantara tentang hakikat pendidikan, yaitu bahwa pendidikan bertujuan untuk menuntun segala kodrat yang dimiliki peserta didik agar mencapai keselamatan dan kebahagiaan setinggi-tingginya. Guru tidak bertugas membentuk peserta didik sesuai keinginannya, melainkan membimbing dan mendampingi perkembangan mereka sesuai kodrat alam dan kodrat zamannya. Selain itu, semboyan “Ing Ngarso Sung Tulodo, Ing Madya Mangun Karso, dan Tut Wuri Handayani” menjadi pedoman bagi saya dalam menjalankan peran sebagai pendidik.
-Arti dari semboyan Ki Hadjar Dewantara tersebut adalah sebagai berikut.
-•	Ing Ngarso Sung Tulodo berarti “di depan memberi teladan.” Sebagai guru, kita harus menjadi contoh yang baik bagi peserta didik, baik dalam sikap, perilaku, maupun ucapan. 
-•	Ing Madya Mangun Karso berarti “di tengah membangun semangat.” Guru berperan mendampingi peserta didik, memberikan motivasi, serta menciptakan suasana belajar yang mendorong mereka untuk berkembang. 
-•	Tut Wuri Handayani berarti “di belakang memberi dorongan.” Guru memberikan dukungan dan arahan agar peserta didik menjadi mandiri, percaya diri, dan mampu mengembangkan potensi yang dimilikinya
-Pada topik kedua, saya mempelajari tentang growth mindset atau pola pikir bertumbuh yang sejalan dengan pemikiran Ki Hadjar Dewantara. Sebagai calon guru, saya harus menyadari bahwa setiap peserta didik memiliki potensi dan kemampuan yang dapat terus berkembang melalui proses belajar, latihan, dan pengalaman. Guru tidak hanya bertugas menyampaikan materi, tetapi juga membimbing, memotivasi, dan memberikan dukungan kepada peserta didik agar mereka percaya pada kemampuan dirinya sendiri.
-Ki Hadjar Dewantara menjelaskan bahwa guru berperan sebagai pamong yang menuntun dan membantu peserta didik mengembangkan potensi yang dimilikinya. Oleh karena itu, sebagai calon guru saya harus mampu menciptakan lingkungan belajar yang mendorong peserta didik untuk berani mencoba, tidak takut melakukan kesalahan, serta menjadikan tantangan sebagai kesempatan untuk berkembang. Dengan menerapkan growth mindset, peserta didik diharapkan dapat menjadi pribadi yang mandiri, kritis, dan terus berusaha mencapai tujuan belajarnya.
-Pada topik ketiga, saya memahami bahwa pendidikan nilai sangat penting karena menjadi landasan dalam membentuk karakter peserta didik. Pendidikan nilai di Indonesia berpedoman pada Pancasila dan Undang-Undang Sistem Pendidikan Nasional yang menekankan pentingnya membentuk manusia yang beriman, berakhlak mulia, mandiri, serta bertanggung jawab. Di tengah berbagai fenomena sosial, seperti pergeseran nilai, pengaruh media sosial, bullying, dan menurunnya moral generasi muda, sekolah memiliki peran penting sebagai tempat pewarisan nilai dari satu generasi ke generasi berikutnya.
-Pada topik keempat, saya mempelajari pentingnya kode etik profesi guru. Setiap profesi memiliki aturan dan tanggung jawab yang harus dipatuhi, termasuk profesi guru. Pemahaman terhadap kode etik akan membantu saya bertindak secara profesional, menjaga hubungan dengan peserta didik dan masyarakat, serta menentukan langkah yang tepat ketika menghadapi berbagai permasalahan atau pelanggaran yang terjadi di lingkungan sekolah. Dengan memahami kode etik, saya dapat menjalankan tugas sebagai pendidik secara bertanggung jawab dan sesuai dengan norma yang berlaku.
+            connection: `Materi topik 1 sampai topik 4 berkaitan erat dengan peran saya sebagai calon guru
+
+            Pada topik pertama, saya mempelajari pemikiran Ki Hadjar Dewantara bahwa pendidikan bertujuan menuntun peserta didik agar berkembang sesuai potensinya. Guru berperan sebagai pembimbing melalui semboyan:
+• Ing Ngarso Sung Tulodo berarti guru menjadi teladan bagi peserta didik.
+• Ing Madya Mangun Karso berarti guru membangun semangat dan motivasi peserta didik.
+• Tut Wuri Handayani berarti guru memberikan dorongan agar peserta didik mandiri.
+
+Pada topik kedua, saya mempelajari growth mindset, yaitu pola pikir bahwa kemampuan dapat berkembang melalui usaha, latihan, dan pengalaman. Guru perlu mendorong peserta didik agar berani mencoba, tidak takut melakukan kesalahan, dan terus belajar.
+
+Pada topik ketiga, saya memahami bahwa pendidikan nilai penting untuk membentuk karakter, seperti kejujuran, tanggung jawab, dan sikap saling menghargai. Nilai-nilai tersebut diperlukan untuk menghadapi permasalahan seperti perundungan dan pengaruh negatif media sosial.
+
+Pada topik keempat, saya mempelajari pentingnya kode etik profesi guru sebagai pedoman untuk menjalankan tugas secara profesional dan bertanggung jawab.
 `,
 
-            challenge: `Tantangan yang saya alami berdasarkan pengalaman praktik mengajar sebelumnya adalah anggapan bahwa tugas guru hanya sebatas menyampaikan ilmu dan pembelajaran berpusat pada guru. Namun, setelah mempelajari materi ini, saya memahami bahwa pendidikan tidak hanya berfokus pada penyampaian pengetahuan, melainkan guru berperan untuk menuntun dan membimbing peserta didik melalui sistem among yang tercermin dalam semboyan Ing Madya Mangun Karso dan Tut Wuri Handayani. Dengan demikian, pembelajaran yang dilaksanakan bertujuan untuk memerdekakan peserta didik agar dapat berkembang sesuai dengan potensi yang dimilikinya.`,
+            challenge: `Tantangan yang saya alami saat praktik mengajar adalah anggapan bahwa tugas guru hanya menyampaikan materi. Setelah mempelajari materi ini, saya menyadari bahwa guru juga bertugas membimbing, memotivasi, dan membantu peserta didik mengembangkan potensinya. Oleh karena itu, pembelajaran perlu berpusat pada peserta didik agar mereka dapat belajar secara aktif dan mandiri`,
 
-            concept: `Secara keseluruhan, terdapat beberapa konsep utama yang saya pahami sebagai calon guru dari materi yang telah dipelajari.
-1.	Pendidikan berpusat pada peserta didik. Pembelajaran harus dirancang dengan mengutamakan kebutuhan, karakteristik, potensi, dan keunikan setiap peserta didik. Guru berperan sebagai pamong yang menuntun dan membimbing peserta didik agar mampu mengembangkan potensi dirinya secara optimal, bukan sekadar menyampaikan materi pelajaran.
-2.	Kodrat alam dan kodrat zaman. Pendidikan harus diselenggarakan sesuai dengan kondisi lingkungan tempat peserta didik tumbuh dan berkembang, sekaligus mampu menjawab tantangan perubahan zaman, ilmu pengetahuan, dan teknologi. Oleh karena itu, guru dituntut untuk menciptakan pembelajaran yang relevan dengan kebutuhan peserta didik pada masa kini.
-3.	Cipta, rasa, karsa, dan karya. Pendidikan tidak hanya berfokus pada pengembangan kemampuan intelektual, tetapi juga membentuk karakter, kreativitas, kemauan, serta keterampilan peserta didik secara utuh dan seimbang. Hal ini sejalan dengan tujuan pendidikan nasional yang menekankan pembentukan manusia yang beriman, berakhlak mulia, mandiri, dan bertanggung jawab.
-4.	Memahami kode etik profesi guru. Sebagai calon guru, saya harus memahami kode etik profesi agar dapat bertindak secara profesional, menjunjung tinggi etika, serta mengutamakan kebutuhan dan kepentingan peserta didik di atas kepentingan pribadi. Selain itu, pemahaman terhadap kode etik membantu guru mengetahui batasan, tanggung jawab, dan tindakan yang tepat dalam menghadapi berbagai permasalahan di lingkungan pendidikan.
+            concept: `Beberapa konsep penting yang saya pahami adalah:
+            1.Pendidikan berpusat pada peserta didik. Guru perlu memperhatikan kebutuhan, minat, dan kemampuan setiap peserta didik.
+
+2.Kodrat alam dan kodrat zaman. Pembelajaran perlu menyesuaikan lingkungan peserta didik serta perkembangan ilmu pengetahuan dan teknologi.
+
+3.Pengembangan peserta didik secara utuh. Pendidikan tidak hanya mengembangkan pengetahuan, tetapi juga karakter, kreativitas, sikap, dan keterampilan.
+
+4.Kode etik profesi guru. Guru harus menjalankan tugas secara profesional, menjaga etika, dan mengutamakan kepentingan peserta didik.
+
 `,
 
-            change: `Berdasarkan materi perkuliahan yang telah dipelajari, berikut beberapa perubahan yang akan saya terapkan:
-1.Mengubah pola pikir bahwa guru bukan hanya sebagai penyampai materi, tetapi juga sebagai pembimbing dan penuntun peserta didik. 
-1	Merancang pembelajaran yang lebih berpusat pada peserta didik dengan memperhatikan kebutuhan, minat, dan potensi masing-masing. 
-2	Menerapkan prinsip Ki Hadjar Dewantara, yaitu Ing Ngarso Sung Tulodo, Ing Madya Mangun Karso, dan Tut Wuri Handayani dalam proses pembelajaran. 
-3	Menyesuaikan pembelajaran dengan kodrat alam dan kodrat zaman agar peserta didik mampu menghadapi perkembangan ilmu pengetahuan dan teknologi. 
-4	Menumbuhkan growth mindset pada peserta didik agar mereka berani mencoba, tidak mudah menyerah, dan terus berkembang. 
-5	Menanamkan nilai-nilai moral, karakter, dan nilai-nilai Pancasila dalam kehidupan sehari-hari, terutama di tengah perkembangan dunia digital. 
-6	Menciptakan suasana belajar yang memerdekakan, menyenangkan, serta mendorong peserta didik untuk berpikir kritis dan mandiri. 
-7	Memahami dan menerapkan kode etik profesi guru agar dapat bertindak secara profesional dan bertanggung jawab. 
-8	Terus belajar dan mengembangkan kompetensi sebagai calon guru yang profesional.
+            change: `Setelah mempelajari materi ini, saya akan melakukan beberapa perubahan:
+            Menjadi guru yang tidak hanya menyampaikan materi, tetapi juga membimbing peserta didik.
+
+1. Merancang pembelajaran sesuai kebutuhan, minat, dan kemampuan peserta didik.
+
+2.Menerapkan semboyan Ki Hadjar Dewantara dalam kegiatan pembelajaran.
+
+3.Menumbuhkan growth mindset agar peserta didik berani mencoba dan tidak mudah menyerah.
+
+4.Menanamkan nilai moral, karakter, dan Pancasila dalam kehidupan sehari-hari.
+
+5.Menciptakan pembelajaran yang aktif, menyenangkan, dan mendorong kemandirian peserta didik.
+
+6.Menerapkan kode etik profesi guru dalam menjalankan tugas.
+
+7.Terus belajar dan meningkatkan kompetensi agar menjadi guru yang profesional..
 `
         },
 
@@ -79,10 +92,9 @@ Pada topik keempat, saya mempelajari pentingnya kode etik profesi guru. Setiap p
                 preview: false
             }
         ],
-        artifactWhy: `Artefak tersebut saya pilih karena topik pendidikan moral dan karakter sangat relevan dengan kondisi pendidikan saat ini. Pada topik 1 dan 2, saya telah mempelajari filosofi pendidikan Ki Hadjar Dewantara, seperti konsep kodrat alam, kodrat zaman, dan growth mindset, yang menekankan bahwa guru harus menuntun peserta didik agar berkembang sesuai dengan potensi dan zamannya. Namun, pada kenyataannya masih banyak permasalahan moral yang terjadi di lingkungan pendidikan, terutama di era modern dan digital yang berkembang sangat pesat.
-Perkembangan teknologi dan media sosial ibarat pisau bermata dua. Di satu sisi, teknologi memberikan banyak manfaat dan kemudahan dalam memperoleh informasi. Akan tetapi, di sisi lain, teknologi juga membawa dampak negatif, seperti menurunnya sikap sopan santun, empati, tanggung jawab, serta munculnya berbagai kasus perundungan, kekerasan, dan penyimpangan perilaku peserta didik. Hal ini terlihat dari berbagai berita yang membahas krisis moral, degradasi pendidikan karakter, serta perilaku peserta didik yang tidak sesuai dengan nilai-nilai yang diajarkan di sekolah.
-Selain itu, saya melihat adanya ketidakkonsistenan dalam penanaman nilai moral antara sekolah, keluarga, dan lingkungan masyarakat. Nilai-nilai yang diajarkan oleh ketiga lingkungan tersebut terkadang tidak selaras sehingga peserta didik mengalami kebingungan dalam membedakan perilaku yang benar dan yang salah. Padahal, peserta didik bukanlah “kertas kosong” yang hanya menerima informasi, melainkan individu yang memiliki potensi, pengalaman, dan kemampuan berpikir yang perlu dituntun serta dikembangkan secara kritis.
-Oleh karena itu, artefak ini saya pilih karena memberikan gambaran nyata bahwa pendidikan tidak cukup hanya berfokus pada aspek akademik, tetapi juga harus memperhatikan pendidikan moral dan karakter. Sebagai calon guru, saya menyadari bahwa tugas guru bukan hanya mengajarkan ilmu pengetahuan, melainkan juga membimbing, memberikan teladan, serta membantu peserta didik membangun karakter yang baik agar mampu menghadapi tantangan zaman dan perkembangan teknologi secara bijaksana.
+        artifactWhy: `Artefak ini saya pilih karena pendidikan moral dan karakter sangat penting dalam dunia pendidikan saat ini. Pada topik 1 dan 2, saya mempelajari filosofi pendidikan Ki Hadjar Dewantara, konsep kodrat alam, kodrat zaman, dan growth mindset yang menekankan pentingnya membimbing peserta didik agar berkembang sesuai potensinya. Di era digital, teknologi dan media sosial memberikan banyak manfaat, tetapi juga dapat menimbulkan dampak negatif, seperti menurunnya sopan santun, kurangnya empati dan tanggung jawab, serta munculnya perundungan dan kekerasan.
+
+Melalui artefak ini, saya memahami bahwa pendidikan tidak hanya berfokus pada pengetahuan akademik, tetapi juga pembentukan karakter. Penanaman nilai moral perlu dilakukan secara konsisten di sekolah, keluarga, dan masyarakat. Sebagai calon guru, saya harus mampu memberikan teladan, menanamkan nilai-nilai positif, serta membimbing peserta didik agar memiliki karakter yang baik dan mampu menggunakan teknologi secara bijaksana.
 `,
         artifactSupport: [
             `Bagian yang membahas kasus "Krisis Moral Anak Indonesia", "Degradasi Moral Pendidikan dan Peserta Didik", dan "Indonesia Darurat Pendidikan Moral dan Karakter" — mendukung refleksi bahwa teknologi dan media sosial dapat berdampak negatif tanpa diimbangi pendidikan nilai.`,
@@ -987,7 +999,7 @@ document.querySelectorAll("[data-nav-link]").forEach(link => {
 
 // Active nav link berdasarkan posisi section (scroll-spy)
 const navLinks = document.querySelectorAll(".navbar__link, .mobile-menu__link");
-const sections = ["semester1", "semester2"].map(id => document.getElementById(id)).filter(Boolean);
+const sections = ["tentang", "semester1", "semester2"].map(id => document.getElementById(id)).filter(Boolean);
 
 const sectionObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
