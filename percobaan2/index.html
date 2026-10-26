@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refleksi Mata Kuliah | E-Portofolio Akademik</title>
+    <meta name="description" content="E-portofolio refleksi pembelajaran mahasiswa Pendidikan Profesi Guru — refleksi dan analisis artefak pembelajaran menggunakan pendekatan 4C.">
+
+    <!-- ============================================================
+         FAVICON (placeholder) — ganti dengan favicon.ico milikmu
+         ============================================================ -->
+    <link rel="icon" href="data:,">
+
+    <!-- Google Fonts: Fraunces (display/serif) + Inter (body/sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/undiksha.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <!-- ============================================================
+         SKIP LINK — aksesibilitas keyboard
+         ============================================================ -->
+    <a href="#main-content" class="skip-link">Langsung ke konten utama</a>
+
+    <!-- ============================================================
+         SCROLL PROGRESS INDICATOR
+         ============================================================ -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ============================================================
+         NAVBAR
+         ============================================================ -->
+    <header class="navbar" id="navbar">
+        <div class="navbar__inner">
+            <a href="#hero" class="navbar__brand">
+                <span class="navbar__brand-mark" aria-hidden="true">4C</span>
+                <span class="navbar__brand-text">Refleksi Mata Kuliah</span>
+            </a>
+
+            <nav class="navbar__nav" id="navbarNav" aria-label="Navigasi utama">
+                <a href="#tentang" class="navbar__link" data-nav-link data-target="tentang">Tentang Saya</a>
+                <a href="#semester1" class="navbar__link" data-nav-link data-target="semester1">Semester 1</a>
+                <a href="#semester2" class="navbar__link" data-nav-link data-target="semester2">Semester 2</a>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Ubah tampilan gelap/terang" title="Mode gelap/terang">
+                    <svg class="theme-toggle__icon theme-toggle__icon--sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+                    <svg class="theme-toggle__icon theme-toggle__icon--moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+            </nav>
+
+            <button type="button" class="navbar__hamburger" id="hamburgerBtn" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+
+        <!-- Mobile menu -->
+        <nav class="mobile-menu" id="mobileMenu" aria-label="Navigasi mobile">
+            <a href="#tentang" class="mobile-menu__link" data-nav-link data-target="tentang">Tentang Saya</a>
+            <a href="#semester1" class="mobile-menu__link" data-nav-link data-target="semester1">Semester 1</a>
+            <a href="#semester2" class="mobile-menu__link" data-nav-link data-target="semester2">Semester 2</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ============================================================
+             HERO / JUMBOTRON
+             ============================================================ -->
+        <section class="hero" id="hero">
+            <!-- GANTI BACKGROUND HERO DI: assets/images/hero-bg.jpg (lihat style.css → .hero, properti background-image) -->
+            <div class="hero__bg" aria-hidden="true"></div>
+            <div class="hero__overlay" aria-hidden="true"></div>
+
+            <div class="hero__inner">
+                <div class="hero__profile">
+                    <!-- GANTI FOTO PROFIL DI: assets/images/profile.jpg -->
+                    <div class="hero__profile-ring">
+                        <img src="assets/images/profile.jpg" alt="Foto profil mahasiswa" class="hero__profile-img" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect width=%22200%22 height=%22200%22 fill=%22%23274690%22/%3E%3Ctext x=%2250%25%22 y=%2255%25%22 font-family=%22sans-serif%22 font-size=%2260%22 fill=%22%23fff%22 text-anchor=%22middle%22%3E%F0%9F%91%A4%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+
+                <div class="hero__content">
+                    <p class="hero__eyebrow">E-Portofolio Refleksi Pembelajaran</p>
+                    <h1 class="hero__title">Refleksi Mata<br>Kuliah</h1>
+                    <p class="hero__subtitle">
+                        Dokumentasi refleksi dan analisis artefak pembelajaran Program Pendidikan Profesi Guru,
+                        disusun melalui pendekatan <strong>4C — Connection, Challenge, Concept, Change</strong>.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#semester1" class="btn btn--primary" data-nav-link data-target="semester1">Lihat Semester 1</a>
+                        <a href="#semester2" class="btn btn--outline" data-nav-link data-target="semester2">Lihat Semester 2</a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#semester1" class="hero__scroll-cue" data-nav-link data-target="semester1" aria-label="Gulir ke bawah">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- ============================================================
+             TENTANG SAYA (setelah jumbotron, sebelum Semester 1)
+             Ganti teks di bagian ini sesuai dirimu. Foto: assets/images/profile.jpg
+             ============================================================ -->
+        <section class="about" id="tentang">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <span class="section-heading__eyebrow">Tentang Saya</span>
+                    <h2 class="section-heading__title">Mengenal Calon Guru Informatika</h2>
+                </div>
+
+                <div class="about__profile" data-reveal>
+                    <div class="about__photo">
+                        <!-- GANTI FOTO: assets/images/profile.jpg -->
+                        <img src="assets/images/profile.jpg" alt="Foto Ida Bagus Anom Mudita" class="about__photo-img" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 480%22%3E%3Crect width=%22400%22 height=%22480%22 fill=%22%23274690%22/%3E%3Ctext x=%2250%25%22 y=%2255%25%22 font-family=%22sans-serif%22 font-size=%22120%22 fill=%22%23fff%22 text-anchor=%22middle%22%3E%F0%9F%91%A4%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="about__text">
+                        <h3 class="about__name">Ida Bagus Anom Mudita</h3>
+                        <p class="about__role">Mahasiswa PPG &middot; Calon Guru Informatika</p>
+                        <!-- GANTI DESKRIPSI DIRI DI BAWAH INI -->
+                        <p>
+                            Saya adalah mahasiswa Pendidikan Profesi Guru (PPG) di Universitas Pendidikan Ganesha
+                            yang sedang melaksanakan PPL Mandiri di SMP Negeri 2 Singaraja pada mata pelajaran
+                            Informatika, Fase D Kelas IX.
+                        </p>
+                        <p>
+                            Saya senang memadukan teknologi dengan pembelajaran, mulai dari media digital interaktif,
+                            e-book, hingga web pembelajaran, agar materi Informatika terasa dekat, bermakna, dan
+                            menyenangkan bagi peserta didik.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__vision" data-reveal>
+                    <h3 class="about__vision-heading">Inspirasi dan Tujuan</h3>
+                    <div class="vision-grid">
+                        <article class="vision-card">
+                            <span class="vision-card__num">1</span>
+                            <h4 class="vision-card__q">Apa visi saya untuk pendidikan di Indonesia?</h4>
+                            <!-- GANTI JAWABAN -->
+                            <p>
+                                Pendidikan di Indonesia yang berpusat pada peserta didik, membentuk karakter sekaligus
+                                mengembangkan potensi, sehingga setiap anak tumbuh menjadi pribadi yang berpikir kritis,
+                                kreatif, mandiri, dan bijaksana menghadapi perkembangan zaman dan teknologi.
+                            </p>
+                        </article>
+                        <article class="vision-card">
+                            <span class="vision-card__num">2</span>
+                            <h4 class="vision-card__q">Apa visi saya sebagai calon guru?</h4>
+                            <!-- GANTI JAWABAN -->
+                            <p>
+                                Menjadi guru profesional yang tidak hanya menyampaikan materi, tetapi juga membimbing,
+                                memotivasi, dan menjadi teladan, serta mengajak peserta didik memanfaatkan teknologi
+                                secara positif dan bertanggung jawab.
+                            </p>
+                        </article>
+                        <article class="vision-card">
+                            <span class="vision-card__num">3</span>
+                            <h4 class="vision-card__q">Apa yang akan saya lakukan untuk mencapai visi tersebut?</h4>
+                            <!-- GANTI JAWABAN -->
+                            <p>
+                                Memahami karakteristik peserta didik melalui asesmen awal, merancang pembelajaran yang
+                                bermakna dan menyenangkan dengan media digital, serta terus berefleksi dan
+                                mengembangkan kompetensi sebagai guru.
+                            </p>
+                        </article>
+                    </div>
+
+                    <!-- GANTI KUTIPAN -->
+                    <blockquote class="about__quote">
+                        <p>&ldquo;Guru yang baik tidak hanya mengajar, tetapi menuntun setiap peserta didik menemukan potensinya.&rdquo;</p>
+                        <footer>&mdash; Ida Bagus Anom Mudita</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             SEMESTER 1
+             ============================================================ -->
+        <section class="semester" id="semester1">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <span class="section-heading__eyebrow">Semester 1</span>
+                    <h2 class="section-heading__title">Refleksi Mata Kuliah Semester 1</h2>
+                    <p class="section-heading__desc">
+                        Semester 1 merupakan tahap awal dalam proses pembelajaran yang memberikan berbagai pengalaman,
+                        pemahaman, dan refleksi mengenai pendidikan, peserta didik, pembelajaran, serta pengalaman
+                        praktik di lingkungan pendidikan.
+                    </p>
+                </div>
+
+                <!-- Search / filter -->
+                <div class="course-filter" data-reveal>
+                    <div class="course-filter__search">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <input type="search" id="courseSearch" placeholder="Cari mata kuliah…" aria-label="Cari mata kuliah semester 1">
+                    </div>
+                </div>
+
+                <!-- 6 course cards are rendered here by script.js from the `courses` data array -->
+                <div class="course-grid" id="courseGrid" data-reveal></div>
+                <p class="course-grid__empty" id="courseGridEmpty" hidden>Tidak ada mata kuliah yang cocok dengan pencarianmu.</p>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             SEMESTER 2 (placeholder — akan diisi menyusul)
+             ============================================================ -->
+        <section class="semester semester--muted" id="semester2">
+            <!-- Pencarian mata kuliah Semester 2 -->
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <span class="section-heading__eyebrow">Semester 2</span>
+                    <h2 class="section-heading__title">Refleksi Mata Kuliah Semester 2</h2>
+                    <p class="section-heading__desc">
+                        Semester 2 merupakan tahap lebih lanjut dalam proses pembelajaran yang memberikan berbagai pengalaman,
+                        pemahaman, dan refleksi mengenai pendidikan, peserta didik, pembelajaran, serta pengalaman
+                        praktik di lingkungan pendidikan.
+                    </p>
+                </div>
+
+                <!-- Pencarian mata kuliah Semester 2 -->
+                <div class="course-filter" data-reveal>
+                    <div class="course-filter__search">
+                        <input
+                            type="search"
+                            id="courseSearchSemester2"
+                            placeholder="Cari mata kuliah Semester 2..."
+                            aria-label="Cari mata kuliah Semester 2"
+                        >
+                    </div>
+                </div>
+
+                <!-- Daftar kartu Semester 2 -->
+                <div
+                    class="course-grid"
+                    id="coursesSemester2"
+                    data-reveal>
+                </div>
+
+                <p
+                    class="course-grid__empty"
+                    id="courseGridEmptySemester2"
+                    hidden>
+                    Tidak ada mata kuliah yang cocok dengan pencarianmu.
+                </p>
+
+                <!-- ============================================================
+                     REFLEKSI PENGALAMAN BELAJAR SELAMA MENGIKUTI PPG
+                     ============================================================ -->
+                <div class="lk3" id="refleksiPpg" data-reveal>
+                    <div class="lk3__head">
+                        <span class="section-heading__eyebrow">Refleksi Akhir</span>
+                        <h3 class="lk3__title">Refleksi Pengalaman Belajar Selama Mengikuti PPG</h3>
+                    </div>
+
+                    <article class="lk3-card">
+                        <span class="lk3-card__num">1</span>
+                        <h4 class="lk3-card__q">Setelah mengikuti rangkaian refleksi pengalaman belajar, menurut Anda, bagaimana seharusnya pendidikan di Indonesia?</h4>
+                        <p>Menurut saya, pendidikan di Indonesia seharusnya tidak hanya berfokus pada pencapaian akademik, tetapi juga pada pembentukan karakter dan pengembangan potensi peserta didik. Guru perlu memahami bahwa setiap peserta didik memiliki kemampuan, minat, kebutuhan, dan latar belakang yang berbeda. Oleh karena itu, pembelajaran harus berpusat pada peserta didik, disesuaikan dengan kebutuhan mereka, serta mendorong mereka untuk berpikir kritis, kreatif, mandiri, dan mampu menerapkan pengetahuan dalam kehidupan sehari-hari. Pendidikan juga perlu menanamkan nilai moral, tanggung jawab, dan sikap saling menghargai agar peserta didik dapat menghadapi perkembangan zaman dan teknologi dengan bijaksana.</p>
+                    </article>
+
+                    <article class="lk3-card">
+                        <span class="lk3-card__num">2</span>
+                        <h4 class="lk3-card__q">Apa saja yang dapat Anda lakukan untuk menjadi guru profesional?</h4>
+                        <p>Untuk menjadi guru profesional, saya perlu terus meningkatkan kompetensi pedagogik, profesional, sosial, dan kepribadian. Berdasarkan pengalaman belajar selama PPG, saya menyadari pentingnya memahami karakteristik peserta didik, merancang pembelajaran yang bermakna, menerapkan asesmen awal, formatif, dan sumatif, serta melakukan refleksi untuk memperbaiki proses pembelajaran. Selain itu, saya perlu menerapkan <em>growth mindset</em>, mengembangkan kemampuan sosial emosional, memberikan teladan yang baik, dan mematuhi kode etik profesi guru. Melalui praktik mengajar dan evaluasi secara berkelanjutan, saya berharap dapat menjadi guru yang mampu membimbing peserta didik sesuai dengan kebutuhan dan potensinya.</p>
+                    </article>
+
+                    <article class="lk3-card">
+                        <span class="lk3-card__num">3</span>
+                        <h4 class="lk3-card__q">Rencana Tindak Lanjut: Apa saja tiga hal penting yang akan Anda lakukan ketika memulai karier sebagai guru?</h4>
+                        <ol class="lk3-steps">
+                            <li>
+                                <strong>Memahami karakteristik dan kebutuhan peserta didik.</strong>
+                                Saya akan melakukan asesmen awal untuk mengetahui kemampuan, minat, dan kebutuhan belajar peserta didik. Hasilnya akan saya gunakan untuk merancang pembelajaran yang sesuai dengan kondisi mereka.
+                            </li>
+                            <li>
+                                <strong>Menciptakan pembelajaran yang bermakna dan menyenangkan.</strong>
+                                Saya akan menggunakan metode, media digital, dan kegiatan pembelajaran yang bervariasi agar peserta didik aktif, mampu berpikir kritis, serta dapat menerapkan pengetahuan dalam kehidupan sehari-hari. Saya juga akan menanamkan nilai moral dan karakter melalui kegiatan pembelajaran.
+                            </li>
+                            <li>
+                                <strong>Terus mengembangkan diri dan melakukan refleksi.</strong>
+                                Saya akan mengevaluasi pembelajaran yang telah dilaksanakan, menerima masukan dari peserta didik dan rekan guru, serta mengikuti kegiatan pengembangan kompetensi. Saya juga akan berusaha menerapkan kode etik profesi dan menjadi teladan bagi peserta didik dalam sikap maupun perilaku.
+                            </li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+         BACK TO TOP
+         ============================================================ -->
+    <button type="button" class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="footer__brand-mark" aria-hidden="true">4C</span>
+                <div>
+                    <p class="footer__brand-title">Refleksi Mata Kuliah</p>
+                    <p class="footer__brand-sub">E-Portofolio Akademik</p>
+                </div>
+            </div>
+
+            <!-- GANTI IDENTITAS DI SINI (nama, prodi, universitas, tahun) -->
+            <div class="footer__meta">
+                <p><strong>Nama Mahasiswa:</strong> <span id="footerName">Ida Bagus Anom Mudita</span></p>
+                <p><strong>Program Studi:</strong> <span id="footerProdi">[Program Studi]</span></p>
+                <p><strong>Universitas:</strong> <span id="footerUniv">[Nama Universitas]</span></p>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; <span id="footerYear">2026</span> Refleksi Mata Kuliah — E-Portofolio Akademik. Seluruh hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+         COURSE DETAIL MODAL (single-page, diisi dinamis oleh script.js)
+         ============================================================ -->
+    <div class="course-modal" id="courseModal" aria-hidden="true">
+        <div class="course-modal__backdrop" id="courseModalBackdrop"></div>
+        <div class="course-modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalCourseTitle">
+
+            <div class="course-modal__scroll">
+                <!-- Breadcrumb -->
+                <div class="course-modal__breadcrumb">
+                    <button type="button" class="course-modal__close-inline" id="modalBackBtn">← Kembali ke daftar mata kuliah</button>
+                </div>
+
+                <!-- Header -->
+                <header class="course-detail__header">
+                    <span class="course-detail__number" id="modalCourseNumber">01</span>
+                    <h2 class="course-detail__title" id="modalCourseTitle">Judul Mata Kuliah</h2>
+                    <p class="course-detail__desc" id="modalCourseDesc">Deskripsi singkat mata kuliah.</p>
+                </header>
+
+                <!-- Tabs -->
+                <div class="course-tabs" role="tablist" aria-label="Bagian detail mata kuliah">
+                    <button class="course-tabs__btn is-active" role="tab" aria-selected="true" data-tab="refleksi" id="tabBtnRefleksi">Refleksi</button>
+                    <!-- <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="materi" id="tabBtnMateri">Materi</button> -->
+                    <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="artefak" id="tabBtnArtefak">Artefak</button>
+                    <!-- <button class="course-tabs__btn" role="tab" aria-selected="false" data-tab="dokumen" id="tabBtnDokumen">Dokumen</button> -->
+                </div>
+
+                <!-- TAB PANEL: REFLEKSI -->
+                <div class="course-tabpanel is-active" data-tabpanel="refleksi" role="tabpanel">
+
+                    <div class="c4-intro">
+                        <h3>Refleksi Pembelajaran Melalui Pendekatan 4C</h3>
+                        <p>
+                            Pendekatan 4C — <strong>Connection, Challenge, Concept, Change</strong> — digunakan sebagai
+                            kerangka untuk merefleksikan pengalaman belajar pada mata kuliah ini secara terstruktur:
+                            mulai dari keterkaitan materi dengan peran sebagai calon guru, tantangan yang mengubah cara
+                            pandang, konsep utama yang dipelajari, hingga perubahan konkret yang ingin diterapkan.
+                        </p>
+                    </div>
+
+                    <div class="c4-grid" id="c4Grid">
+                        <!-- 4 kartu C1–C4 dirender oleh script.js -->
+                    </div>
+                </div>
+
+                <!-- TAB PANEL: MATERI -->
+                <div class="course-tabpanel" data-tabpanel="materi" role="tabpanel">
+                    <section class="course-material">
+                        <h3>Materi Pembelajaran</h3>
+                        <!-- TEMPAT MEMASUKKAN MATERI: isi properti `materials` pada data mata kuliah
+                             terkait di script.js (array `courses`). Setiap item akan dirender otomatis
+                             di sini tanpa perlu mengubah HTML. -->
+                        <div class="material-content" id="modalMaterialContent">
+                            <!-- Materi mata kuliah akan dimasukkan di sini -->
+                        </div>
+                    </section>
+                </div>
+
+                <!-- TAB PANEL: ARTEFAK -->
+                <div class="course-tabpanel" data-tabpanel="artefak" role="tabpanel">
+
+                    <section class="artifact-section">
+                        <h3>Bukti Dukungan Hasil Refleksi Pengalaman Belajar</h3>
+                        <div class="artifact-list" id="modalArtifactList">
+                            <!-- Kartu artefak dirender oleh script.js dari `course.artifacts` -->
+                        </div>
+                    </section>
+
+                    <section class="artifact-section">
+                        <h3>Mengapa Artefak Ini Dipilih?</h3>
+                        <div class="artifact-reason" id="modalArtifactWhy"></div>
+                    </section>
+
+                    <section class="artifact-section">
+                        <h3>Bagian Artefak yang Mendukung Hasil Refleksi</h3>
+                        <div class="artifact-support" id="modalArtifactSupport"></div>
+                    </section>
+                </div>
+
+                <!-- TAB PANEL: DOKUMEN -->
+                <div class="course-tabpanel" data-tabpanel="dokumen" role="tabpanel">
+                    <section class="artifact-section">
+                        <h3>Dokumen Pendukung</h3>
+                        <p class="doc-hint">Dokumen (PDF, PPT, DOCX, gambar, video, atau tautan) yang ditambahkan pada
+                            data <code>documents</code> mata kuliah ini akan tampil dan dapat dibaca langsung di sini.</p>
+                        <div class="document-viewer" id="modalDocumentViewer">
+                            <!-- Viewer dokumen dirender oleh script.js dari `course.documents` -->
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================
+         GENERIC FILE PREVIEW MODAL (dipakai oleh tombol "Baca/Lihat")
+         ============================================================ -->
+    <div class="preview-modal" id="previewModal" aria-hidden="true">
+        <div class="preview-modal__backdrop" id="previewModalBackdrop"></div>
+        <div class="preview-modal__panel" role="dialog" aria-modal="true" aria-labelledby="previewModalTitle">
+            <div class="preview-modal__header">
+                <h3 id="previewModalTitle">Pratinjau File</h3>
+                <button type="button" class="preview-modal__close" id="previewModalClose" aria-label="Tutup pratinjau">&times;</button>
+            </div>
+            <div class="preview-modal__body" id="previewModalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

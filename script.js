@@ -999,7 +999,7 @@ document.querySelectorAll("[data-nav-link]").forEach(link => {
 
 // Active nav link berdasarkan posisi section (scroll-spy)
 const navLinks = document.querySelectorAll(".navbar__link, .mobile-menu__link");
-const sections = ["tentang", "semester1", "semester2"].map(id => document.getElementById(id)).filter(Boolean);
+const sections = ["tentang", "semester1", "semester2", "karyaInovasi"].map(id => document.getElementById(id)).filter(Boolean);
 
 const sectionObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -1125,4 +1125,25 @@ document.getElementById("footerYear").textContent = new Date().getFullYear();
         const course = findCourseById(match[1]);
         if (course) openCourseModal(course.id);
     }
+})();
+
+
+/* ============================================================
+   KARYA INOVASI — placeholder otomatis bila file gambar belum ada
+   ============================================================ */
+(function () {
+    function placeholder(img) {
+        if (img.dataset.fallback) return;
+        img.dataset.fallback = "1";
+        const label = img.getAttribute("data-label") || "Gambar";
+        const path = (img.getAttribute("src") || "").replace(/&/g, "&amp;");
+        const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"><rect width="800" height="450" fill="#274690"/>' +
+            '<text x="50%" y="48%" font-family="sans-serif" font-size="34" fill="#fff" text-anchor="middle">' + label + '</text>' +
+            '<text x="50%" y="58%" font-family="sans-serif" font-size="18" fill="#ffffffcc" text-anchor="middle">' + path + '</text></svg>';
+        img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+    }
+    document.querySelectorAll(".inovasi__img").forEach(function (img) {
+        img.addEventListener("error", function () { placeholder(img); });
+        if (img.complete && img.naturalWidth === 0 && img.getAttribute("src")) placeholder(img);
+    });
 })();
